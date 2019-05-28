@@ -125,14 +125,15 @@ if __name__ == '__main__':
                 # img_gray full face     face_img_gray part of face
             if face_exists:
                 cv2.HoughLinesP
-                cv2.namedWindow(emo, 0)
+                #cv2.namedWindow(emo, 0)
                 cent = int((height * 1.0 / width) * size)
-                cv2.resizeWindow(emo, (size, cent))
-                cv2.imshow(emo, img)
-                k = cv2.waitKey(0)
-                cv2.destroyAllWindows()
-                if k & 0xFF == ord('q'):
-                    break
+                cv2.imwrite('./img_store/1.jpg',img) 
+                #cv2.resizeWindow(emo, (size, cent))
+                #cv2.imshow(emo, img)
+                #k = cv2.waitKey(0)
+                #cv2.destroyAllWindows()
+                #if k & 0xFF == ord('q'):
+                    #break
         elif flag == 1:
             img = cv2.imread(image)
             img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -153,12 +154,10 @@ if __name__ == '__main__':
 
             # img_gray full face     face_img_gray part of face
             cv2.HoughLinesP
-            # cv2.imwrite('./'+emo+'.jpg',face_img_gray)
-            cv2.namedWindow(emo, 0)
-            size = 400
-            cent = int((height * 1.0 / width) * size)
-            cv2.resizeWindow(emo, (size, cent))
-
-            cv2.imshow(emo, img)
-            cv2.waitKey(0)
-
+            cv2.imwrite('./img_store/1.jpg',face_img_gray)
+            #cv2.namedWindow(emo, 0)
+            #size = 400
+            #cent = int((height * 1.0 / width) * size)
+            #cv2.resizeWindow(emo, (size, cent))
+            #cv2.imshow(emo, img)
+            #cv2.waitKey(0)
