@@ -9,7 +9,7 @@ batch_siz = 128
 num_classes = 7
 nb_epoch = 70
 img_size=48
-root_path='../fer2013'
+root_path='../../fer2013'
 class Model:
     def __init__(self):
         self.model = None
