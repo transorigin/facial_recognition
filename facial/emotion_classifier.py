@@ -58,7 +58,7 @@ def predict_emotion(face_img):
 
 
 def face_detect(image_path):
-    cascPath = 'pic/haarcascade_frontalface_alt.xml'
+    cascPath = p + 'pic/haarcascade_frontalface_alt.xml'
     faceCasccade = cv2.CascadeClassifier(cascPath)
 
     # load the img and convert it to bgrgray
@@ -103,7 +103,7 @@ if __name__ == '__main__':
                 face_exists = 1
                 face_img_gray = img_gray[y:y + h, x:x + w]
                 results = predict_emotion(face_img_gray)  # face_img_gray
-                result_sum = np.array([0]*num_class)
+                result_sum = np.array([0] * num_class)
                 for result in results:
                     result_sum = result_sum + np.array(result)
                     print(result)
@@ -126,20 +126,20 @@ if __name__ == '__main__':
                 # img_gray full face     face_img_gray part of face
             if face_exists:
                 cv2.HoughLinesP
-                #cv2.namedWindow(emo, 0)
+                # cv2.namedWindow(emo, 0)
                 cent = int((height * 1.0 / width) * size)
-                cv2.imwrite('./img_store/1.jpg',img) 
-                #cv2.resizeWindow(emo, (size, cent))
-                #cv2.imshow(emo, img)
-                #k = cv2.waitKey(0)
-                #cv2.destroyAllWindows()
-                #if k & 0xFF == ord('q'):
-                    #break
+                cv2.imwrite('./img_store/1.jpg', img)
+                # cv2.resizeWindow(emo, (size, cent))
+                # cv2.imshow(emo, img)
+                # k = cv2.waitKey(0)
+                # cv2.destroyAllWindows()
+                # if k & 0xFF == ord('q'):
+                # break
         elif flag == 1:
             img = cv2.imread(image)
             img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
             results = predict_emotion(img_gray)  # face_img_gray
-            result_sum = np.array([0]*num_class)
+            result_sum = np.array([0] * num_class)
             for result in results:
                 result_sum = result_sum + np.array(result)
                 print(result)
@@ -155,10 +155,10 @@ if __name__ == '__main__':
 
             # img_gray full face     face_img_gray part of face
             cv2.HoughLinesP
-            cv2.imwrite('./img_store/1.jpg',face_img_gray)
-            #cv2.namedWindow(emo, 0)
-            #size = 400
-            #cent = int((height * 1.0 / width) * size)
-            #cv2.resizeWindow(emo, (size, cent))
-            #cv2.imshow(emo, img)
-            #cv2.waitKey(0)
+            cv2.imwrite('./img_store/1.jpg', face_img_gray)
+            # cv2.namedWindow(emo, 0)
+            # size = 400
+            # cent = int((height * 1.0 / width) * size)
+            # cv2.resizeWindow(emo, (size, cent))
+            # cv2.imshow(emo, img)
+            # cv2.waitKey(0)
