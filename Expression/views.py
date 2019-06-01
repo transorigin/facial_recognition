@@ -1,9 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-import json
-
-
-# from facial import emotion_classifier
+from Expression import function
+import os
 
 # Create your views here.
 def index(request):
@@ -24,16 +22,16 @@ def uploadFile(request):
         print(myFile.name)
         if not myFile:
             return HttpResponse("no files for upload!")
-        import os
-
-        # destination = open(os.path.join("D:\\upload", myFile.name), 'wb+')  # 打开特定的文件进行二进制的写操作
-        # for chunk in myFile.chunks():  # 分块写入文件
-        #     destination.write(chunk)
-        # destination.close()
-
+        print(os.getcwd())
+        imgPath = './Expression/img/' + myFile.name
+        destination = open(imgPath, 'wb+')  # 打开特定的文件进行二进制的写操作
+        for chunk in myFile.chunks():  # 分块写入文件
+            destination.write(chunk)
+        destination.close()
+        #
         # 表情识别接口
-        # if myFile:
-        #     print(emotion_classifier.predict_emotion(myFile))
+        if myFile:
+            function.recFacial(imgPath)
         print(os.path)
         # 返回表情识别结果
         return HttpResponse("成功")

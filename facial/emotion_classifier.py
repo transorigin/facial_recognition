@@ -6,7 +6,8 @@ import time
 import os
 # import copy
 from keras.models import model_from_json
-
+# import keras
+# keras.backend.clear_session()
 p = os.path.dirname(__file__) + '/'
 root_path = 'pic/'
 model_path = p + root_path + 'model/'  # '/model_0.7/'
@@ -20,15 +21,10 @@ json_file.close()
 model = model_from_json(loaded_model_json)
 # load weight
 model.load_weights(model_path + 'model_weight.h5')
-
+print(np.zeros((1, 48,48,1)))
+model.predict_proba(np.zeros((1,48,48,1)), batch_size=32, verbose=1)  # predict
 
 def predict_emotion(face_img):
-    json_file = open(model_path + 'model_json.json')
-    loaded_model_json = json_file.read()
-    json_file.close()
-    model = model_from_json(loaded_model_json)
-    # load weight
-    model.load_weights(model_path + 'model_weight.h5')
     face_img = face_img * (1. / 255)
     resized_img = cv2.resize(face_img, (img_size, img_size))  # ,interpolation=cv2.INTER_LINEAR
     rsz_img = []
@@ -57,6 +53,7 @@ def predict_emotion(face_img):
         rsh_img.append(rsz_image.reshape(1, img_size, img_size, 1))
     i = 0
     for rsh_image in rsh_img:
+        print("rsh_image",rsh_image,"length",len(rsh_image[0][0][0]))
         list_of_list = model.predict_proba(rsh_image, batch_size=32, verbose=1)  # predict
         result = [prob for lst in list_of_list for prob in lst]
         results.append(result)
@@ -64,7 +61,8 @@ def predict_emotion(face_img):
 
 
 def face_detect(image_path):
-    cascPath = '/pic/haarcascade_frontalface_alt.xml'
+    cascPath = p + 'pic/haarcascade_frontalface_alt.xml'
+    print(cascPath)
     faceCasccade = cv2.CascadeClassifier(cascPath)
 
     # load the img and convert it to bgrgray

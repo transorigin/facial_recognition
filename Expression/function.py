@@ -34,4 +34,4 @@ def recFacial(imgPath):
 
 
 if __name__ == '__main__':
-    recFacial('img/10.jpg')
+    recFacial('img/0.jpg')
