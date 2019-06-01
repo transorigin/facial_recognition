@@ -23,6 +23,12 @@ model.load_weights(model_path + 'model_weight.h5')
 
 
 def predict_emotion(face_img):
+    json_file = open(model_path + 'model_json.json')
+    loaded_model_json = json_file.read()
+    json_file.close()
+    model = model_from_json(loaded_model_json)
+    # load weight
+    model.load_weights(model_path + 'model_weight.h5')
     face_img = face_img * (1. / 255)
     resized_img = cv2.resize(face_img, (img_size, img_size))  # ,interpolation=cv2.INTER_LINEAR
     rsz_img = []
@@ -58,7 +64,7 @@ def predict_emotion(face_img):
 
 
 def face_detect(image_path):
-    cascPath = p + 'pic/haarcascade_frontalface_alt.xml'
+    cascPath = '/pic/haarcascade_frontalface_alt.xml'
     faceCasccade = cv2.CascadeClassifier(cascPath)
 
     # load the img and convert it to bgrgray
