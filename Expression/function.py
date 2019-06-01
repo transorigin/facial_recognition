@@ -1,7 +1,7 @@
 from facial import emotion_classifier
 import numpy as np
 import cv2
-
+import os
 emotion_labels = ['angry', 'disgust:', 'fear', 'happy', 'sad', 'surprise', 'neutral']
 num_class = len(emotion_labels)
 
@@ -27,7 +27,10 @@ def recFacial(imgPath):
         www_s = int((w + 20) * 2 / 100) * 2 / 5
         cv2.putText(img, emo, (x + 2, y + h - 2), cv2.FONT_HERSHEY_SIMPLEX,
                     www_s, (150, 25, 150), thickness=2, lineType=1)
-        cv2.imwrite('img/test.jpg', img)
+        p = os.path.dirname(__file__) + '/'
+        print(p)
+        path = p + '/img/test.jpg'
+        cv2.imwrite(path, img)
         emoStore[emo] = result_sum[label]
     print(emoStore)
     return img, emoStore
