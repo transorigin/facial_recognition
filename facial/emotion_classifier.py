@@ -7,8 +7,9 @@ import os
 # import copy
 from keras.models import model_from_json
 
+p = os.path.dirname(__file__) + '/'
 root_path = 'pic/'
-model_path = root_path + 'model/'  # '/model_0.7/'
+model_path = p + root_path + 'model/'  # '/model_0.7/'
 img_size = 48
 emotion_labels = ['angry', 'disgust:', 'fear', 'happy', 'sad', 'surprise', 'neutral']
 num_class = len(emotion_labels)
