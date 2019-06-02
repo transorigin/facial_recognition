@@ -7,6 +7,27 @@ num_class = len(emotion_labels)
 
 
 def recFacial(imgPath):
+    p = os.path.dirname(__file__)
+    # 加载emotion
+    emotion_images = {}
+    for emoji in emotion_labels:
+        emotion_images[emoji] = cv2.imread(p + "/emoji/" + emoji + ".png", -1)
+
+    def face2emoji(face, emotion_index, position):
+        x, y, w, h = position
+        print("index:",emotion_index)
+        print('emotion_image',emotion_images[emotion_index])
+        emotion_image = cv2.resize(emotion_images[emotion_index], (w, h))
+        overlay_img = emotion_image[:, :, :3] / 255.0
+        overlay_bg = emotion_image[:, :, 3:] / 255.0
+        background = (1.0 - overlay_bg)
+        face_part = (face[y:y + h, x:x + w] / 255.0) * background
+        overlay_part = overlay_img * overlay_bg
+
+        face[y:y + h, x:x + w] = cv2.addWeighted(face_part, 255.0, overlay_part, 255.0, 0.0)
+
+        return face
+
     faces, img_gray, img = emotion_classifier.face_detect(imgPath)
     print(emotion_classifier.predict_emotion(faces))
     emoStore = {}
@@ -23,18 +44,19 @@ def recFacial(imgPath):
         label = np.argmax(result_sum)
         emo = emotion_labels[label]
         print('Emotion : ', emo)
-        cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 2)
-        www_s = int((w + 20) * 2 / 100) * 2 / 5
-        cv2.putText(img, emo, (x + 2, y + h - 2), cv2.FONT_HERSHEY_SIMPLEX,
-                    www_s, (150, 25, 150), thickness=2, lineType=1)
-        p = os.path.dirname(__file__) + '/'
+        # emoji_show = img.copy()
+        emoji = face2emoji(img, emo, (x, y, w, h))
+        # cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 2)
+        # www_s = int((w + 20) * 2 / 100) * 2 / 5
+        # cv2.putText(img, emo, (x + 2, y + h - 2), cv2.FONT_HERSHEY_SIMPLEX,
+        #             www_s, (150, 25, 150), thickness=2, lineType=1)
         print(p)
         path = p + '/img/test.jpg'
-        cv2.imwrite(path, img)
+        cv2.imwrite(path, emoji)
         emoStore[emo] = result_sum[label]
     print(emoStore)
     return img, emoStore
 
 
 if __name__ == '__main__':
-    recFacial('img/0.jpg')
+    recFacial('img/1.jpg')
