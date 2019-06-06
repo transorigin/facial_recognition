@@ -2,16 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd038aec-7a0a-4587-8509-b8069d4594c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Expression/emoji/angry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expression/emoji/fear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expression/emoji/happy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expression/emoji/neutral.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expression/emoji/sad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expression/emoji/surprise.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expression/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expression/static/lay/modules/mobile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expression/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Expression/img/test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/img/test.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/JMU1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/JMU1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/JMU2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/JMU2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/JMU3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/JMU3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/JMU4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/JMU4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lay/modules/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lay/modules/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lay/modules/colorpicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/colorpicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lay/modules/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/element.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lay/modules/flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/flow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lay/modules/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lay/modules/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lay/modules/laydate.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/laydate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lay/modules/layedit.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/layedit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lay/modules/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/layer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lay/modules/laypage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/laypage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lay/modules/laytpl.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/laytpl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lay/modules/mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lay/modules/rate.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/rate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lay/modules/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lay/modules/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lay/modules/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lay/modules/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lay/modules/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/layui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/layui.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/layui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/login1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/login1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/login2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/login2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/pw.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/pw.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,28 +51,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Expression/function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
+            <state relative-caret-position="870">
               <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Expression/emoji/happy.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Expression/emoji/fear.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Expression/img/test.jpg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -67,21 +76,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/settings.py">
+        <entry file="file://$PROJECT_DIR$/Expression/img/test.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Expression/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+              <caret line="199" column="127" selection-start-line="199" selection-start-column="127" selection-end-line="199" selection-end-column="127" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/predict.py">
+        <entry file="file://$PROJECT_DIR$/project/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="79" column="43" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="43" />
+            <state relative-caret-position="405">
+              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#84#93#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,12 +162,12 @@
       <list>
         <option value="$PROJECT_DIR$/Expression/views.py" />
         <option value="$PROJECT_DIR$/facial/emotion_classifier.py" />
-        <option value="$PROJECT_DIR$/project/settings.py" />
         <option value="$PROJECT_DIR$/Expression/function.py" />
+        <option value="$PROJECT_DIR$/project/settings.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="2" />
     <option name="y" value="59" />
     <option name="width" value="800" />
@@ -142,7 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,29 +188,13 @@
             <path>
               <item name="facial_recognition" type="b2602c69:ProjectViewProjectNode" />
               <item name="facial_recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="Expression" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="facial_recognition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="facial_recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="Expression" type="462c0819:PsiDirectoryNode" />
-              <item name="emoji" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="facial_recognition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="facial_recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="Expression" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="facial_recognition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="facial_recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,6 +206,10 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Expression" />
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Expression/img" />
       <recent name="$PROJECT_DIR$/Expression" />
@@ -204,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.function">
+  <component name="RunManager" selected="Django server.facial_recognition">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="facial_recognition" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -253,6 +276,9 @@
       <module name="facial_recognition" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Expression" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -366,23 +392,24 @@
       <workItem from="1559374231606" duration="11036000" />
       <workItem from="1559392333539" duration="2215000" />
       <workItem from="1559397767016" duration="658000" />
-      <workItem from="1559473576963" duration="3216000" />
+      <workItem from="1559473576963" duration="3479000" />
+      <workItem from="1559834747745" duration="790000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18226000" />
+    <option name="totallyTimeSpent" value="19279000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1031" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096258" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26417112" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.65581644" weight="0.37333333" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.65581644" visible="true" weight="0.37248322" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -392,7 +419,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053364" side_tool="true" weight="0.3422222" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4994664" visible="true" weight="0.42729306" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4994664" weight="0.42729306" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -413,16 +440,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Expression/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#84#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$USER_HOME$/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/management/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -508,12 +525,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/settings.py">
+    <entry file="file://$PROJECT_DIR$/test/predict.py" />
+    <entry file="file://$PROJECT_DIR$/Expression/emoji/fear.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expression/emoji/happy.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expression/function.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+        <state relative-caret-position="870">
+          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expression/img/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expression/emoji/surprise.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expression/emoji/sad.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Expression/models.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -524,43 +560,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/predict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="79" column="43" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expression/emoji/happy.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expression/emoji/fear.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expression/emoji/surprise.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expression/emoji/sad.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expression/img/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expression/function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Expression/img/test.jpg">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expression/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expression/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="199" column="127" selection-start-line="199" selection-start-column="127" selection-end-line="199" selection-end-column="127" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#84#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
