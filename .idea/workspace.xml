@@ -2,40 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd038aec-7a0a-4587-8509-b8069d4594c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Expression/static/lay/modules/mobile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Expression/img/test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/img/test.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/JMU1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/JMU1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/JMU2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/JMU2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/JMU3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/JMU3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/JMU4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/JMU4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/colorpicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/colorpicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/flow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/laydate.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/laydate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/layedit.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/layedit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/layer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/laypage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/laypage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/laytpl.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/laytpl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/mobile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/rate.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/rate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/tree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/upload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/lay/modules/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/lay/modules/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/layui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/layui.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/layui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/login1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/login1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/login2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/login2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/pw.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/static/pw.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expression/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Expression/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Expression/function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
+            <state relative-caret-position="915">
               <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
@@ -61,34 +29,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Expression/img/1.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Expression/emoji/surprise.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Expression/emoji/sad.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Expression/img/test.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Expression/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="199" column="127" selection-start-line="199" selection-start-column="127" selection-end-line="199" selection-end-column="127" />
+            <state relative-caret-position="165">
+              <caret line="41" column="15" lean-forward="true" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
               <folding>
+                <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ol#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#form#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#form#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -102,7 +65,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
@@ -134,6 +97,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Expression/admin.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Expression/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -152,6 +132,7 @@
       <find>emotion</find>
       <find>emoji</find>
       <find>emoji_show</find>
+      <find>left</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -164,10 +145,11 @@
         <option value="$PROJECT_DIR$/facial/emotion_classifier.py" />
         <option value="$PROJECT_DIR$/Expression/function.py" />
         <option value="$PROJECT_DIR$/project/settings.py" />
+        <option value="$PROJECT_DIR$/Expression/templates/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2" />
     <option name="y" value="59" />
     <option name="width" value="800" />
@@ -184,6 +166,28 @@
             <path>
               <item name="facial_recognition" type="b2602c69:ProjectViewProjectNode" />
               <item name="facial_recognition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="facial_recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="facial_recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="Expression" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="facial_recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="facial_recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="Expression" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="facial_recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="facial_recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="Expression" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="facial_recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="facial_recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="facial" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="facial_recognition" type="b2602c69:ProjectViewProjectNode" />
@@ -393,23 +397,23 @@
       <workItem from="1559392333539" duration="2215000" />
       <workItem from="1559397767016" duration="658000" />
       <workItem from="1559473576963" duration="3479000" />
-      <workItem from="1559834747745" duration="790000" />
+      <workItem from="1559834747745" duration="2622000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19279000" />
+    <option name="totallyTimeSpent" value="21111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1031" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26417112" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26417112" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.65581644" visible="true" weight="0.37248322" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.65581644" weight="0.37248322" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -418,7 +422,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053364" side_tool="true" weight="0.3422222" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31879196" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4994664" weight="0.42729306" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -436,9 +440,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Expression/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expression/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/management/__init__.py">
@@ -477,16 +478,6 @@
         <state>
           <folding>
             <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expression/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -532,16 +523,6 @@
     <entry file="file://$PROJECT_DIR$/Expression/emoji/happy.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Expression/function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Expression/img/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -551,37 +532,10 @@
     <entry file="file://$PROJECT_DIR$/Expression/emoji/sad.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Expression/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expression/img/test.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Expression/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expression/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="199" column="127" selection-start-line="199" selection-start-column="127" selection-end-line="199" selection-end-column="127" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,6 +556,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expression/img/32fa828ba61ea8d3fcd2e9ce9e0a304e241f5803.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expression/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expression/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expression/function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expression/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expression/img/test.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expression/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="41" column="15" lean-forward="true" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ol#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#form#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
