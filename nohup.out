@@ -13235,3 +13235,6884 @@ rsh_image [[[[0.92156863]
 [08/Jun/2019 09:35:48] "GET /favicon.ico HTTP/1.1" 200 10458
 [08/Jun/2019 09:35:50] "GET /favicon.ico HTTP/1.1" 200 10458
 [08/Jun/2019 09:35:52] "GET /favicon.ico HTTP/1.1" 200 10458
+Watching for file changes with StatReloader
+/root/anaconda3/envs/facial/lib/python3.6/site-packages/h5py/__init__.py:34: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+WARNING:tensorflow:From /root/anaconda3/envs/facial/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /root/anaconda3/envs/facial/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-06-08 09:42:45.017223: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-06-08 09:42:45.022082: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2494220000 Hz
+2019-06-08 09:42:45.022200: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x3d7b030 executing computations on platform Host. Devices:
+2019-06-08 09:42:45.022213: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+Performing system checks...
+
+[[[[0.]
+   [0.]
+   [0.]
+   ...
+   [0.]
+   [0.]
+   [0.]]
+
+  [[0.]
+   [0.]
+   [0.]
+   ...
+   [0.]
+   [0.]
+   [0.]]
+
+  [[0.]
+   [0.]
+   [0.]
+   ...
+   [0.]
+   [0.]
+   [0.]]
+
+  ...
+
+  [[0.]
+   [0.]
+   [0.]
+   ...
+   [0.]
+   [0.]
+   [0.]]
+
+  [[0.]
+   [0.]
+   [0.]
+   ...
+   [0.]
+   [0.]
+   [0.]]
+
+  [[0.]
+   [0.]
+   [0.]
+   ...
+   [0.]
+   [0.]
+   [0.]]]]
+
+1/1 [==============================] - 0s 44ms/step
+[08/Jun/2019 09:42:48] "GET /favicon.ico HTTP/1.1" 200 10458
+[08/Jun/2019 09:42:49] "POST /uploadFile/ HTTP/1.1" 200 19705
+[08/Jun/2019 09:42:50] "GET /favicon.ico HTTP/1.1" 200 10458
+[08/Jun/2019 09:42:51] "GET / HTTP/1.1" 200 10458
+[08/Jun/2019 09:42:51] "GET /%E9%BB%98%E8%AE%A4%E5%9B%BE%E7%89%87%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84 HTTP/1.1" 200 10458
+----------------------------------------
+Exception happened during processing of request from ('218.85.118.193', 57578)
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[08/Jun/2019 09:42:55] "POST /uploadFile/ HTTP/1.1" 200 19705
+[08/Jun/2019 09:42:55] "GET /static/test.jpg HTTP/1.1" 200 19705
+----------------------------------------
+Exception happened during processing of request from ('218.85.118.193', 57592)
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[08/Jun/2019 09:43:36] "GET /favicon.ico HTTP/1.1" 200 10458
+[08/Jun/2019 09:43:36] "GET /favicon.ico HTTP/1.1" 200 10458
+[08/Jun/2019 09:43:37] "GET / HTTP/1.1" 200 10458
+[08/Jun/2019 09:43:37] "GET /%E9%BB%98%E8%AE%A4%E5%9B%BE%E7%89%87%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84 HTTP/1.1" 200 10458
+System check identified no issues (0 silenced).
+June 08, 2019 - 09:42:45
+Django version 2.2, using settings 'project.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: 500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+{}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: 500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+{}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: u=3400595878,954284595&fm=26&gp=0.jpg
+u=3400595878,954284595&fm=26&gp=0.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 14ms/step
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+rsh_image [[[[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  ...
+
+  [[0.25490197]
+   [0.25490197]
+   [0.25490197]
+   ...
+   [0.27450981]
+   [0.27450981]
+   [0.27450981]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490195]
+   [0.25490195]
+   [0.25490195]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+[[0.0027533132, 6.232459e-05, 0.51848775, 0.0035941731, 0.36160293, 0.03378594, 0.07971357], [0.002753314, 6.232461e-05, 0.51848793, 0.0035941743, 0.36160287, 0.03378592, 0.07971349], [0.010000282, 0.00021570794, 0.4471694, 0.0051341145, 0.45884937, 0.026234444, 0.052396744]]
+rsh_image [[[[0.25012042]
+   [0.21761387]
+   [0.2120098 ]
+   ...
+   [0.27454853]
+   [0.28753319]
+   [0.24399552]]
+
+  [[0.25290543]
+   [0.22426471]
+   [0.22035846]
+   ...
+   [0.26774791]
+   [0.29201517]
+   [0.26507098]]
+
+  [[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  ...
+
+  [[0.59836601]
+   [0.62523106]
+   [0.4982524 ]
+   ...
+   [0.44968384]
+   [0.41659135]
+   [0.36066389]]
+
+  [[0.61083155]
+   [0.58510263]
+   [0.46504927]
+   ...
+   [0.46785131]
+   [0.44032246]
+   [0.39158624]]
+
+  [[0.60801037]
+   [0.54460018]
+   [0.51952444]
+   ...
+   [0.48623579]
+   [0.46405356]
+   [0.41985294]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+rsh_image [[[[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  [[0.24554813]
+   [0.24351926]
+   [0.23638666]
+   ...
+   [0.32728729]
+   [0.30808329]
+   [0.25938001]]
+
+  [[0.25318078]
+   [0.25424597]
+   [0.23348349]
+   ...
+   [0.31980691]
+   [0.31963484]
+   [0.27535862]]
+
+  ...
+
+  [[0.64379517]
+   [0.58589644]
+   [0.52174827]
+   ...
+   [0.39617649]
+   [0.32527234]
+   [0.28192478]]
+
+  [[0.61938836]
+   [0.58408191]
+   [0.5316333 ]
+   ...
+   [0.40269458]
+   [0.35970256]
+   [0.29719588]]
+
+  [[0.60021829]
+   [0.59443168]
+   [0.52739566]
+   ...
+   [0.42342176]
+   [0.38357843]
+   [0.32418599]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+rsh_image [[[[0.24399552]
+   [0.28753319]
+   [0.27454853]
+   ...
+   [0.2120098 ]
+   [0.21761387]
+   [0.25012042]]
+
+  [[0.26507098]
+   [0.29201517]
+   [0.26774791]
+   ...
+   [0.22035846]
+   [0.22426471]
+   [0.25290543]]
+
+  [[0.26236894]
+   [0.29580014]
+   [0.29796815]
+   ...
+   [0.23221975]
+   [0.23594516]
+   [0.25032467]]
+
+  ...
+
+  [[0.36066389]
+   [0.41659135]
+   [0.44968384]
+   ...
+   [0.4982524 ]
+   [0.62523106]
+   [0.59836601]]
+
+  [[0.39158624]
+   [0.44032246]
+   [0.46785131]
+   ...
+   [0.46504927]
+   [0.58510263]
+   [0.61083155]]
+
+  [[0.41985294]
+   [0.46405356]
+   [0.48623579]
+   ...
+   [0.51952444]
+   [0.54460018]
+   [0.60801037]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+----------------------------------------
+Exception happened during processing of request from ('218.85.118.193', 57636)
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[08/Jun/2019 09:43:44] "POST /uploadFile/ HTTP/1.1" 200 13046
+[08/Jun/2019 09:43:44] "GET /static/test.jpg HTTP/1.1" 200 13046
+----------------------------------------
+Exception happened during processing of request from ('218.85.118.193', 57635)
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('218.85.118.193', 57637)
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('61.219.11.153', 62976)
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[08/Jun/2019 10:10:55] "GET / HTTP/1.1" 200 10458
+[08/Jun/2019 10:41:40] "GET / HTTP/1.1" 200 10458
+----------------------------------------
+Exception happened during processing of request from ('50.45.171.52', 42219)
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[08/Jun/2019 10:47:18] "GET / HTTP/1.1" 200 10458
+[08/Jun/2019 12:04:04] "GET /favicon.ico HTTP/1.1" 200 10458
+[4.884394e-05, 7.04242e-07, 1.5553534e-05, 0.9888122, 3.9370807e-05, 7.744576e-06, 0.011075634]
+[1.8659855e-05, 7.2328106e-07, 8.878494e-06, 0.9802648, 0.00011767024, 1.4886926e-05, 0.019574469]
+[0.005514493, 2.0896208e-05, 0.003799626, 0.9874687, 6.622183e-05, 0.0013322585, 0.0017976556]
+angry: 0.00558199700753903 disgust: 2.232373134347654e-05  fear: 0.0038240579333432834  happy: 2.9565457105636597  sad: 0.00022326287944451906  surprise: 0.001354889957838168  neutral: 0.0324477581307292
+Emotion :  happy
+index: happy
+emotion_image [[[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ ...
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]]
+/root/facial/facial_recognition/Expression
+{'happy': 2.9565457105636597}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: u=3400595878,954284595&fm=26&gp=0.jpg
+u=3400595878,954284595&fm=26&gp=0.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+rsh_image [[[[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  ...
+
+  [[0.25490197]
+   [0.25490197]
+   [0.25490197]
+   ...
+   [0.27450981]
+   [0.27450981]
+   [0.27450981]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490195]
+   [0.25490195]
+   [0.25490195]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+[[0.0027533132, 6.232459e-05, 0.51848775, 0.0035941731, 0.36160293, 0.03378594, 0.07971357], [0.002753314, 6.232461e-05, 0.51848793, 0.0035941743, 0.36160287, 0.03378592, 0.07971349], [0.010000282, 0.00021570794, 0.4471694, 0.0051341145, 0.45884937, 0.026234444, 0.052396744]]
+rsh_image [[[[0.25012042]
+   [0.21761387]
+   [0.2120098 ]
+   ...
+   [0.27454853]
+   [0.28753319]
+   [0.24399552]]
+
+  [[0.25290543]
+   [0.22426471]
+   [0.22035846]
+   ...
+   [0.26774791]
+   [0.29201517]
+   [0.26507098]]
+
+  [[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  ...
+
+  [[0.59836601]
+   [0.62523106]
+   [0.4982524 ]
+   ...
+   [0.44968384]
+   [0.41659135]
+   [0.36066389]]
+
+  [[0.61083155]
+   [0.58510263]
+   [0.46504927]
+   ...
+   [0.46785131]
+   [0.44032246]
+   [0.39158624]]
+
+  [[0.60801037]
+   [0.54460018]
+   [0.51952444]
+   ...
+   [0.48623579]
+   [0.46405356]
+   [0.41985294]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  [[0.24554813]
+   [0.24351926]
+   [0.23638666]
+   ...
+   [0.32728729]
+   [0.30808329]
+   [0.25938001]]
+
+  [[0.25318078]
+   [0.25424597]
+   [0.23348349]
+   ...
+   [0.31980691]
+   [0.31963484]
+   [0.27535862]]
+
+  ...
+
+  [[0.64379517]
+   [0.58589644]
+   [0.52174827]
+   ...
+   [0.39617649]
+   [0.32527234]
+   [0.28192478]]
+
+  [[0.61938836]
+   [0.58408191]
+   [0.5316333 ]
+   ...
+   [0.40269458]
+   [0.35970256]
+   [0.29719588]]
+
+  [[0.60021829]
+   [0.59443168]
+   [0.52739566]
+   ...
+   [0.42342176]
+   [0.38357843]
+   [0.32418599]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.24399552]
+   [0.28753319]
+   [0.27454853]
+   ...
+   [0.2120098 ]
+   [0.21761387]
+   [0.25012042]]
+
+  [[0.26507098]
+   [0.29201517]
+   [0.26774791]
+   ...
+   [0.22035846]
+   [0.22426471]
+   [0.25290543]]
+
+  [[0.26236894]
+   [0.29580014]
+   [0.29796815]
+   ...
+   [0.23221975]
+   [0.23594516]
+   [0.25032467]]
+
+  ...
+
+  [[0.36066389]
+   [0.41659135]
+   [0.44968384]
+   ...
+   [0.4982524 ]
+   [0.62523106]
+   [0.59836601]]
+
+  [[0.39158624]
+   [0.44032246]
+   [0.46785131]
+   ...
+   [0.46504927]
+   [0.58510263]
+   [0.61083155]]
+
+  [[0.41985294]
+   [0.46405356]
+   [0.48623579]
+   ...
+   [0.51952444]
+   [0.54460018]
+   [0.60801037]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+[08/Jun/2019 12:23:49] "POST /uploadFile/ HTTP/1.1" 200 13046
+[08/Jun/2019 12:23:56] "POST /uploadFile/ HTTP/1.1" 200 19705
+[08/Jun/2019 12:23:58] "POST /uploadFile/ HTTP/1.1" 200 19705
+[08/Jun/2019 12:26:22] "POST /uploadFile/ HTTP/1.1" 200 19705
+[08/Jun/2019 12:26:33] "POST /uploadFile/ HTTP/1.1" 200 19705
+----------------------------------------
+Exception happened during processing of request from ('218.85.118.193', 60881)
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[08/Jun/2019 12:27:47] "GET /index HTTP/1.1" 200 10458
+[08/Jun/2019 12:27:47] "GET /%E9%BB%98%E8%AE%A4%E5%9B%BE%E7%89%87%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84 HTTP/1.1" 200 10458
+[08/Jun/2019 12:27:48] "GET /favicon.ico HTTP/1.1" 200 10458
+[4.884394e-05, 7.04242e-07, 1.5553534e-05, 0.9888122, 3.9370807e-05, 7.744576e-06, 0.011075634]
+[1.8659855e-05, 7.2328106e-07, 8.878494e-06, 0.9802648, 0.00011767024, 1.4886926e-05, 0.019574469]
+[0.005514493, 2.0896208e-05, 0.003799626, 0.9874687, 6.622183e-05, 0.0013322585, 0.0017976556]
+angry: 0.00558199700753903 disgust: 2.232373134347654e-05  fear: 0.0038240579333432834  happy: 2.9565457105636597  sad: 0.00022326287944451906  surprise: 0.001354889957838168  neutral: 0.0324477581307292
+Emotion :  happy
+index: happy
+emotion_image [[[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ ...
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]]
+/root/facial/facial_recognition/Expression
+{'happy': 2.9565457105636597}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: 500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+{}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: 500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+{}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: 500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+{}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: 500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+{}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: u=3400595878,954284595&fm=26&gp=0.jpg
+u=3400595878,954284595&fm=26&gp=0.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  ...
+
+  [[0.25490197]
+   [0.25490197]
+   [0.25490197]
+   ...
+   [0.27450981]
+   [0.27450981]
+   [0.27450981]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490195]
+   [0.25490195]
+   [0.25490195]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+[[0.0027533132, 6.232459e-05, 0.51848775, 0.0035941731, 0.36160293, 0.03378594, 0.07971357], [0.002753314, 6.232461e-05, 0.51848793, 0.0035941743, 0.36160287, 0.03378592, 0.07971349], [0.010000282, 0.00021570794, 0.4471694, 0.0051341145, 0.45884937, 0.026234444, 0.052396744]]
+rsh_image [[[[0.25012042]
+   [0.21761387]
+   [0.2120098 ]
+   ...
+   [0.27454853]
+   [0.28753319]
+   [0.24399552]]
+
+  [[0.25290543]
+   [0.22426471]
+   [0.22035846]
+   ...
+   [0.26774791]
+   [0.29201517]
+   [0.26507098]]
+
+  [[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  ...
+
+  [[0.59836601]
+   [0.62523106]
+   [0.4982524 ]
+   ...
+   [0.44968384]
+   [0.41659135]
+   [0.36066389]]
+
+  [[0.61083155]
+   [0.58510263]
+   [0.46504927]
+   ...
+   [0.46785131]
+   [0.44032246]
+   [0.39158624]]
+
+  [[0.60801037]
+   [0.54460018]
+   [0.51952444]
+   ...
+   [0.48623579]
+   [0.46405356]
+   [0.41985294]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  [[0.24554813]
+   [0.24351926]
+   [0.23638666]
+   ...
+   [0.32728729]
+   [0.30808329]
+   [0.25938001]]
+
+  [[0.25318078]
+   [0.25424597]
+   [0.23348349]
+   ...
+   [0.31980691]
+   [0.31963484]
+   [0.27535862]]
+
+  ...
+
+  [[0.64379517]
+   [0.58589644]
+   [0.52174827]
+   ...
+   [0.39617649]
+   [0.32527234]
+   [0.28192478]]
+
+  [[0.61938836]
+   [0.58408191]
+   [0.5316333 ]
+   ...
+   [0.40269458]
+   [0.35970256]
+   [0.29719588]]
+
+  [[0.60021829]
+   [0.59443168]
+   [0.52739566]
+   ...
+   [0.42342176]
+   [0.38357843]
+   [0.32418599]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.24399552]
+   [0.28753319]
+   [0.27454853]
+   ...
+   [0.2120098 ]
+   [0.21761387]
+   [0.25012042]]
+
+  [[0.26507098]
+   [0.29201517]
+   [0.26774791]
+   ...
+   [0.22035846]
+   [0.22426471]
+   [0.25290543]]
+
+  [[0.26236894]
+   [0.29580014]
+   [0.29796815]
+   ...
+   [0.23221975]
+   [0.23594516]
+   [0.25032467]]
+
+  ...
+
+  [[0.36066389]
+   [0.41659135]
+   [0.44968384]
+   ...
+   [0.4982524 ]
+   [0.62523106]
+   [0.59836601]]
+
+  [[0.39158624]
+   [0.44032246]
+   [0.46785131]
+   ...
+   [0.46504927]
+   [0.58510263]
+   [0.61083155]]
+
+  [[0.41985294]
+   [0.46405356]
+   [0.48623579]
+   ...
+   [0.51952444]
+   [0.54460018]
+   [0.60801037]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+[08/Jun/2019 12:27:54] "POST /uploadFile/ HTTP/1.1" 200 13046
+[08/Jun/2019 12:27:54] "GET /static/test.jpg HTTP/1.1" 200 13046
+[08/Jun/2019 12:27:59] "POST /uploadFile/ HTTP/1.1" 200 19705
+[08/Jun/2019 12:28:01] "POST /uploadFile/ HTTP/1.1" 200 19705
+[08/Jun/2019 12:28:01] "POST /uploadFile/ HTTP/1.1" 200 19705
+[08/Jun/2019 12:28:03] "POST /uploadFile/ HTTP/1.1" 200 19705
+[08/Jun/2019 12:28:05] "POST /uploadFile/ HTTP/1.1" 200 19705
+[08/Jun/2019 12:28:06] "POST /uploadFile/ HTTP/1.1" 200 19705
+[08/Jun/2019 12:28:47] "GET /index HTTP/1.1" 200 10458
+[08/Jun/2019 12:46:45] "GET /index HTTP/1.1" 200 10458
+[08/Jun/2019 12:46:45] "GET /%E9%BB%98%E8%AE%A4%E5%9B%BE%E7%89%87%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84 HTTP/1.1" 200 10458
+[08/Jun/2019 12:46:46] "GET /favicon.ico HTTP/1.1" 200 10458
+[08/Jun/2019 12:46:53] "POST /uploadFile/ HTTP/1.1" 200 19705
+[08/Jun/2019 12:46:53] "GET /static/test.jpg HTTP/1.1" 200 19705
+[4.884394e-05, 7.04242e-07, 1.5553534e-05, 0.9888122, 3.9370807e-05, 7.744576e-06, 0.011075634]
+[1.8659855e-05, 7.2328106e-07, 8.878494e-06, 0.9802648, 0.00011767024, 1.4886926e-05, 0.019574469]
+[0.005514493, 2.0896208e-05, 0.003799626, 0.9874687, 6.622183e-05, 0.0013322585, 0.0017976556]
+angry: 0.00558199700753903 disgust: 2.232373134347654e-05  fear: 0.0038240579333432834  happy: 2.9565457105636597  sad: 0.00022326287944451906  surprise: 0.001354889957838168  neutral: 0.0324477581307292
+Emotion :  happy
+index: happy
+emotion_image [[[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ ...
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]]
+/root/facial/facial_recognition/Expression
+{'happy': 2.9565457105636597}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: 500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+{}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: 500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+{}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: 500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+{}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: 500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+{}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: 500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+{}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: 500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+{}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: 500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+{}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: u=3400595878,954284595&fm=26&gp=0.jpg
+u=3400595878,954284595&fm=26&gp=0.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  ...
+
+  [[0.25490197]
+   [0.25490197]
+   [0.25490197]
+   ...
+   [0.27450981]
+   [0.27450981]
+   [0.27450981]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490195]
+   [0.25490195]
+   [0.25490195]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+[[0.0027533132, 6.232459e-05, 0.51848775, 0.0035941731, 0.36160293, 0.03378594, 0.07971357], [0.002753314, 6.232461e-05, 0.51848793, 0.0035941743, 0.36160287, 0.03378592, 0.07971349], [0.010000282, 0.00021570794, 0.4471694, 0.0051341145, 0.45884937, 0.026234444, 0.052396744]]
+rsh_image [[[[0.25012042]
+   [0.21761387]
+   [0.2120098 ]
+   ...
+   [0.27454853]
+   [0.28753319]
+   [0.24399552]]
+
+  [[0.25290543]
+   [0.22426471]
+   [0.22035846]
+   ...
+   [0.26774791]
+   [0.29201517]
+   [0.26507098]]
+
+  [[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  ...
+
+  [[0.59836601]
+   [0.62523106]
+   [0.4982524 ]
+   ...
+   [0.44968384]
+   [0.41659135]
+   [0.36066389]]
+
+  [[0.61083155]
+   [0.58510263]
+   [0.46504927]
+   ...
+   [0.46785131]
+   [0.44032246]
+   [0.39158624]]
+
+  [[0.60801037]
+   [0.54460018]
+   [0.51952444]
+   ...
+   [0.48623579]
+   [0.46405356]
+   [0.41985294]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+rsh_image [[[[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  [[0.24554813]
+   [0.24351926]
+   [0.23638666]
+   ...
+   [0.32728729]
+   [0.30808329]
+   [0.25938001]]
+
+  [[0.25318078]
+   [0.25424597]
+   [0.23348349]
+   ...
+   [0.31980691]
+   [0.31963484]
+   [0.27535862]]
+
+  ...
+
+  [[0.64379517]
+   [0.58589644]
+   [0.52174827]
+   ...
+   [0.39617649]
+   [0.32527234]
+   [0.28192478]]
+
+  [[0.61938836]
+   [0.58408191]
+   [0.5316333 ]
+   ...
+   [0.40269458]
+   [0.35970256]
+   [0.29719588]]
+
+  [[0.60021829]
+   [0.59443168]
+   [0.52739566]
+   ...
+   [0.42342176]
+   [0.38357843]
+   [0.32418599]]]] length 1
+
+1/1 [==============================] - 0s 11ms/step
+rsh_image [[[[0.24399552]
+   [0.28753319]
+   [0.27454853]
+   ...
+   [0.2120098 ]
+   [0.21761387]
+   [0.25012042]]
+
+  [[0.26507098]
+   [0.29201517]
+   [0.26774791]
+   ...
+   [0.22035846]
+   [0.22426471]
+   [0.25290543]]
+
+  [[0.26236894]
+   [0.29580014]
+   [0.29796815]
+   ...
+   [0.23221975]
+   [0.23594516]
+   [0.25032467]]
+
+  ...
+
+  [[0.36066389]
+   [0.41659135]
+   [0.44968384]
+   ...
+   [0.4982524 ]
+   [0.62523106]
+   [0.59836601]]
+
+  [[0.39158624]
+   [0.44032246]
+   [0.46785131]
+   ...
+   [0.46504927]
+   [0.58510263]
+   [0.61083155]]
+
+  [[0.41985294]
+   [0.46405356]
+   [0.48623579]
+   ...
+   [0.51952444]
+   [0.54460018]
+   [0.60801037]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+[08/Jun/2019 12:46:56] "POST /uploadFile/ HTTP/1.1" 200 13046
+[4.884394e-05, 7.04242e-07, 1.5553534e-05, 0.9888122, 3.9370807e-05, 7.744576e-06, 0.011075634]
+[1.8659855e-05, 7.2328106e-07, 8.878494e-06, 0.9802648, 0.00011767024, 1.4886926e-05, 0.019574469]
+[0.005514493, 2.0896208e-05, 0.003799626, 0.9874687, 6.622183e-05, 0.0013322585, 0.0017976556]
+angry: 0.00558199700753903 disgust: 2.232373134347654e-05  fear: 0.0038240579333432834  happy: 2.9565457105636597  sad: 0.00022326287944451906  surprise: 0.001354889957838168  neutral: 0.0324477581307292
+Emotion :  happy
+index: happy
+emotion_image [[[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ ...
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]]
+/root/facial/facial_recognition/Expression
+{'happy': 2.9565457105636597}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: u=3400595878,954284595&fm=26&gp=0.jpg
+u=3400595878,954284595&fm=26&gp=0.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 11ms/step
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+rsh_image [[[[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  ...
+
+  [[0.25490197]
+   [0.25490197]
+   [0.25490197]
+   ...
+   [0.27450981]
+   [0.27450981]
+   [0.27450981]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490195]
+   [0.25490195]
+   [0.25490195]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+[[0.0027533132, 6.232459e-05, 0.51848775, 0.0035941731, 0.36160293, 0.03378594, 0.07971357], [0.002753314, 6.232461e-05, 0.51848793, 0.0035941743, 0.36160287, 0.03378592, 0.07971349], [0.010000282, 0.00021570794, 0.4471694, 0.0051341145, 0.45884937, 0.026234444, 0.052396744]]
+rsh_image [[[[0.25012042]
+   [0.21761387]
+   [0.2120098 ]
+   ...
+   [0.27454853]
+   [0.28753319]
+   [0.24399552]]
+
+  [[0.25290543]
+   [0.22426471]
+   [0.22035846]
+   ...
+   [0.26774791]
+   [0.29201517]
+   [0.26507098]]
+
+  [[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  ...
+
+  [[0.59836601]
+   [0.62523106]
+   [0.4982524 ]
+   ...
+   [0.44968384]
+   [0.41659135]
+   [0.36066389]]
+
+  [[0.61083155]
+   [0.58510263]
+   [0.46504927]
+   ...
+   [0.46785131]
+   [0.44032246]
+   [0.39158624]]
+
+  [[0.60801037]
+   [0.54460018]
+   [0.51952444]
+   ...
+   [0.48623579]
+   [0.46405356]
+   [0.41985294]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  [[0.24554813]
+   [0.24351926]
+   [0.23638666]
+   ...
+   [0.32728729]
+   [0.30808329]
+   [0.25938001]]
+
+  [[0.25318078]
+   [0.25424597]
+   [0.23348349]
+   ...
+   [0.31980691]
+   [0.31963484]
+   [0.27535862]]
+
+  ...
+
+  [[0.64379517]
+   [0.58589644]
+   [0.52174827]
+   ...
+   [0.39617649]
+   [0.32527234]
+   [0.28192478]]
+
+  [[0.61938836]
+   [0.58408191]
+   [0.5316333 ]
+   ...
+   [0.40269458]
+   [0.35970256]
+   [0.29719588]]
+
+  [[0.60021829]
+   [0.59443168]
+   [0.52739566]
+   ...
+   [0.42342176]
+   [0.38357843]
+   [0.32418599]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.24399552]
+   [0.28753319]
+   [0.27454853]
+   ...
+   [0.2120098 ]
+   [0.21761387]
+   [0.25012042]]
+
+  [[0.26507098]
+   [0.29201517]
+   [0.26774791]
+   ...
+   [0.22035846]
+   [0.22426471]
+   [0.25290543]]
+
+  [[0.26236894]
+   [0.29580014]
+   [0.29796815]
+   ...
+   [0.23221975]
+   [0.23594516]
+   [0.25032467]]
+
+  ...
+
+  [[0.36066389]
+   [0.41659135]
+   [0.44968384]
+   ...
+   [0.4982524 ]
+   [0.62523106]
+   [0.59836601]]
+
+  [[0.39158624]
+   [0.44032246]
+   [0.46785131]
+   ...
+   [0.46504927]
+   [0.58510263]
+   [0.61083155]]
+
+  [[0.41985294]
+   [0.46405356]
+   [0.48623579]
+   ...
+   [0.51952444]
+   [0.54460018]
+   [0.60801037]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+[08/Jun/2019 12:47:10] "POST /uploadFile/ HTTP/1.1" 200 13046
+[08/Jun/2019 12:47:10] "GET /static/test.jpg HTTP/1.1" 200 13046
+[08/Jun/2019 12:50:19] "GET / HTTP/1.1" 200 10458
+[08/Jun/2019 12:50:47] "GET / HTTP/1.1" 200 10458
+[08/Jun/2019 12:56:31] "GET /favicon.ico HTTP/1.1" 200 10458
+[08/Jun/2019 13:00:47] "GET /favicon.ico HTTP/1.1" 200 10458
+[08/Jun/2019 13:16:07] "GET /favicon.ico HTTP/1.1" 200 10458
+[08/Jun/2019 13:23:19] "GET /index HTTP/1.1" 200 10458
+[08/Jun/2019 13:23:20] "GET /favicon.ico HTTP/1.1" 200 10458
+[08/Jun/2019 13:23:21] "GET /favicon.ico HTTP/1.1" 200 10458
+[08/Jun/2019 13:30:26] "GET /favicon.ico HTTP/1.1" 200 10458
+[4.884394e-05, 7.04242e-07, 1.5553534e-05, 0.9888122, 3.9370807e-05, 7.744576e-06, 0.011075634]
+[1.8659855e-05, 7.2328106e-07, 8.878494e-06, 0.9802648, 0.00011767024, 1.4886926e-05, 0.019574469]
+[0.005514493, 2.0896208e-05, 0.003799626, 0.9874687, 6.622183e-05, 0.0013322585, 0.0017976556]
+angry: 0.00558199700753903 disgust: 2.232373134347654e-05  fear: 0.0038240579333432834  happy: 2.9565457105636597  sad: 0.00022326287944451906  surprise: 0.001354889957838168  neutral: 0.0324477581307292
+Emotion :  happy
+index: happy
+emotion_image [[[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ ...
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]]
+/root/facial/facial_recognition/Expression
+{'happy': 2.9565457105636597}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: u=3400595878,954284595&fm=26&gp=0.jpg
+u=3400595878,954284595&fm=26&gp=0.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 11ms/step
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 15ms/step
+rsh_image [[[[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  ...
+
+  [[0.25490197]
+   [0.25490197]
+   [0.25490197]
+   ...
+   [0.27450981]
+   [0.27450981]
+   [0.27450981]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490195]
+   [0.25490195]
+   [0.25490195]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+[[0.0027533132, 6.232459e-05, 0.51848775, 0.0035941731, 0.36160293, 0.03378594, 0.07971357], [0.002753314, 6.232461e-05, 0.51848793, 0.0035941743, 0.36160287, 0.03378592, 0.07971349], [0.010000282, 0.00021570794, 0.4471694, 0.0051341145, 0.45884937, 0.026234444, 0.052396744]]
+rsh_image [[[[0.25012042]
+   [0.21761387]
+   [0.2120098 ]
+   ...
+   [0.27454853]
+   [0.28753319]
+   [0.24399552]]
+
+  [[0.25290543]
+   [0.22426471]
+   [0.22035846]
+   ...
+   [0.26774791]
+   [0.29201517]
+   [0.26507098]]
+
+  [[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  ...
+
+  [[0.59836601]
+   [0.62523106]
+   [0.4982524 ]
+   ...
+   [0.44968384]
+   [0.41659135]
+   [0.36066389]]
+
+  [[0.61083155]
+   [0.58510263]
+   [0.46504927]
+   ...
+   [0.46785131]
+   [0.44032246]
+   [0.39158624]]
+
+  [[0.60801037]
+   [0.54460018]
+   [0.51952444]
+   ...
+   [0.48623579]
+   [0.46405356]
+   [0.41985294]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+rsh_image [[[[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  [[0.24554813]
+   [0.24351926]
+   [0.23638666]
+   ...
+   [0.32728729]
+   [0.30808329]
+   [0.25938001]]
+
+  [[0.25318078]
+   [0.25424597]
+   [0.23348349]
+   ...
+   [0.31980691]
+   [0.31963484]
+   [0.27535862]]
+
+  ...
+
+  [[0.64379517]
+   [0.58589644]
+   [0.52174827]
+   ...
+   [0.39617649]
+   [0.32527234]
+   [0.28192478]]
+
+  [[0.61938836]
+   [0.58408191]
+   [0.5316333 ]
+   ...
+   [0.40269458]
+   [0.35970256]
+   [0.29719588]]
+
+  [[0.60021829]
+   [0.59443168]
+   [0.52739566]
+   ...
+   [0.42342176]
+   [0.38357843]
+   [0.32418599]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+rsh_image [[[[0.24399552]
+   [0.28753319]
+   [0.27454853]
+   ...
+   [0.2120098 ]
+   [0.21761387]
+   [0.25012042]]
+
+  [[0.26507098]
+   [0.29201517]
+   [0.26774791]
+   ...
+   [0.22035846]
+   [0.22426471]
+   [0.25290543]]
+
+  [[0.26236894]
+   [0.29580014]
+   [0.29796815]
+   ...
+   [0.23221975]
+   [0.23594516]
+   [0.25032467]]
+
+  ...
+
+  [[0.36066389]
+   [0.41659135]
+   [0.44968384]
+   ...
+   [0.4982524 ]
+   [0.62523106]
+   [0.59836601]]
+
+  [[0.39158624]
+   [0.44032246]
+   [0.46785131]
+   ...
+   [0.46504927]
+   [0.58510263]
+   [0.61083155]]
+
+  [[0.41985294]
+   [0.46405356]
+   [0.48623579]
+   ...
+   [0.51952444]
+   [0.54460018]
+   [0.60801037]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+[08/Jun/2019 13:48:12] "POST /uploadFile/ HTTP/1.1" 200 13046
+[08/Jun/2019 13:48:12] "GET /static/test.jpg HTTP/1.1" 200 13046
+[08/Jun/2019 13:48:16] "POST /uploadFile/ HTTP/1.1" 200 19705
+[08/Jun/2019 13:48:16] "GET /static/test.jpg HTTP/1.1" 200 19705
+[4.884394e-05, 7.04242e-07, 1.5553534e-05, 0.9888122, 3.9370807e-05, 7.744576e-06, 0.011075634]
+[1.8659855e-05, 7.2328106e-07, 8.878494e-06, 0.9802648, 0.00011767024, 1.4886926e-05, 0.019574469]
+[0.005514493, 2.0896208e-05, 0.003799626, 0.9874687, 6.622183e-05, 0.0013322585, 0.0017976556]
+angry: 0.00558199700753903 disgust: 2.232373134347654e-05  fear: 0.0038240579333432834  happy: 2.9565457105636597  sad: 0.00022326287944451906  surprise: 0.001354889957838168  neutral: 0.0324477581307292
+Emotion :  happy
+index: happy
+emotion_image [[[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ ...
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]]
+/root/facial/facial_recognition/Expression
+{'happy': 2.9565457105636597}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: 500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+{}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: u=3400595878,954284595&fm=26&gp=0.jpg
+u=3400595878,954284595&fm=26&gp=0.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+rsh_image [[[[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  ...
+
+  [[0.25490197]
+   [0.25490197]
+   [0.25490197]
+   ...
+   [0.27450981]
+   [0.27450981]
+   [0.27450981]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490195]
+   [0.25490195]
+   [0.25490195]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+[[0.0027533132, 6.232459e-05, 0.51848775, 0.0035941731, 0.36160293, 0.03378594, 0.07971357], [0.002753314, 6.232461e-05, 0.51848793, 0.0035941743, 0.36160287, 0.03378592, 0.07971349], [0.010000282, 0.00021570794, 0.4471694, 0.0051341145, 0.45884937, 0.026234444, 0.052396744]]
+rsh_image [[[[0.25012042]
+   [0.21761387]
+   [0.2120098 ]
+   ...
+   [0.27454853]
+   [0.28753319]
+   [0.24399552]]
+
+  [[0.25290543]
+   [0.22426471]
+   [0.22035846]
+   ...
+   [0.26774791]
+   [0.29201517]
+   [0.26507098]]
+
+  [[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  ...
+
+  [[0.59836601]
+   [0.62523106]
+   [0.4982524 ]
+   ...
+   [0.44968384]
+   [0.41659135]
+   [0.36066389]]
+
+  [[0.61083155]
+   [0.58510263]
+   [0.46504927]
+   ...
+   [0.46785131]
+   [0.44032246]
+   [0.39158624]]
+
+  [[0.60801037]
+   [0.54460018]
+   [0.51952444]
+   ...
+   [0.48623579]
+   [0.46405356]
+   [0.41985294]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  [[0.24554813]
+   [0.24351926]
+   [0.23638666]
+   ...
+   [0.32728729]
+   [0.30808329]
+   [0.25938001]]
+
+  [[0.25318078]
+   [0.25424597]
+   [0.23348349]
+   ...
+   [0.31980691]
+   [0.31963484]
+   [0.27535862]]
+
+  ...
+
+  [[0.64379517]
+   [0.58589644]
+   [0.52174827]
+   ...
+   [0.39617649]
+   [0.32527234]
+   [0.28192478]]
+
+  [[0.61938836]
+   [0.58408191]
+   [0.5316333 ]
+   ...
+   [0.40269458]
+   [0.35970256]
+   [0.29719588]]
+
+  [[0.60021829]
+   [0.59443168]
+   [0.52739566]
+   ...
+   [0.42342176]
+   [0.38357843]
+   [0.32418599]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+rsh_image [[[[0.24399552]
+   [0.28753319]
+   [0.27454853]
+   ...
+   [0.2120098 ]
+   [0.21761387]
+   [0.25012042]]
+
+  [[0.26507098]
+   [0.29201517]
+   [0.26774791]
+   ...
+   [0.22035846]
+   [0.22426471]
+   [0.25290543]]
+
+  [[0.26236894]
+   [0.29580014]
+   [0.29796815]
+   ...
+   [0.23221975]
+   [0.23594516]
+   [0.25032467]]
+
+  ...
+
+  [[0.36066389]
+   [0.41659135]
+   [0.44968384]
+   ...
+   [0.4982524 ]
+   [0.62523106]
+   [0.59836601]]
+
+  [[0.39158624]
+   [0.44032246]
+   [0.46785131]
+   ...
+   [0.46504927]
+   [0.58510263]
+   [0.61083155]]
+
+  [[0.41985294]
+   [0.46405356]
+   [0.48623579]
+   ...
+   [0.51952444]
+   [0.54460018]
+   [0.60801037]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+[08/Jun/2019 13:48:38] "POST /uploadFile/ HTTP/1.1" 200 13046
+[08/Jun/2019 13:48:38] "GET /static/test.jpg HTTP/1.1" 200 13046
+[08/Jun/2019 13:48:42] "POST /uploadFile/ HTTP/1.1" 200 19705
+[08/Jun/2019 13:48:43] "GET /static/test.jpg HTTP/1.1" 200 19705
+[4.884394e-05, 7.04242e-07, 1.5553534e-05, 0.9888122, 3.9370807e-05, 7.744576e-06, 0.011075634]
+[1.8659855e-05, 7.2328106e-07, 8.878494e-06, 0.9802648, 0.00011767024, 1.4886926e-05, 0.019574469]
+[0.005514493, 2.0896208e-05, 0.003799626, 0.9874687, 6.622183e-05, 0.0013322585, 0.0017976556]
+angry: 0.00558199700753903 disgust: 2.232373134347654e-05  fear: 0.0038240579333432834  happy: 2.9565457105636597  sad: 0.00022326287944451906  surprise: 0.001354889957838168  neutral: 0.0324477581307292
+Emotion :  happy
+index: happy
+emotion_image [[[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ ...
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]]
+/root/facial/facial_recognition/Expression
+{'happy': 2.9565457105636597}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: 500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+{}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: u=3400595878,954284595&fm=26&gp=0.jpg
+u=3400595878,954284595&fm=26&gp=0.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  ...
+
+  [[0.25490197]
+   [0.25490197]
+   [0.25490197]
+   ...
+   [0.27450981]
+   [0.27450981]
+   [0.27450981]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490195]
+   [0.25490195]
+   [0.25490195]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+[[0.0027533132, 6.232459e-05, 0.51848775, 0.0035941731, 0.36160293, 0.03378594, 0.07971357], [0.002753314, 6.232461e-05, 0.51848793, 0.0035941743, 0.36160287, 0.03378592, 0.07971349], [0.010000282, 0.00021570794, 0.4471694, 0.0051341145, 0.45884937, 0.026234444, 0.052396744]]
+rsh_image [[[[0.25012042]
+   [0.21761387]
+   [0.2120098 ]
+   ...
+   [0.27454853]
+   [0.28753319]
+   [0.24399552]]
+
+  [[0.25290543]
+   [0.22426471]
+   [0.22035846]
+   ...
+   [0.26774791]
+   [0.29201517]
+   [0.26507098]]
+
+  [[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  ...
+
+  [[0.59836601]
+   [0.62523106]
+   [0.4982524 ]
+   ...
+   [0.44968384]
+   [0.41659135]
+   [0.36066389]]
+
+  [[0.61083155]
+   [0.58510263]
+   [0.46504927]
+   ...
+   [0.46785131]
+   [0.44032246]
+   [0.39158624]]
+
+  [[0.60801037]
+   [0.54460018]
+   [0.51952444]
+   ...
+   [0.48623579]
+   [0.46405356]
+   [0.41985294]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  [[0.24554813]
+   [0.24351926]
+   [0.23638666]
+   ...
+   [0.32728729]
+   [0.30808329]
+   [0.25938001]]
+
+  [[0.25318078]
+   [0.25424597]
+   [0.23348349]
+   ...
+   [0.31980691]
+   [0.31963484]
+   [0.27535862]]
+
+  ...
+
+  [[0.64379517]
+   [0.58589644]
+   [0.52174827]
+   ...
+   [0.39617649]
+   [0.32527234]
+   [0.28192478]]
+
+  [[0.61938836]
+   [0.58408191]
+   [0.5316333 ]
+   ...
+   [0.40269458]
+   [0.35970256]
+   [0.29719588]]
+
+  [[0.60021829]
+   [0.59443168]
+   [0.52739566]
+   ...
+   [0.42342176]
+   [0.38357843]
+   [0.32418599]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.24399552]
+   [0.28753319]
+   [0.27454853]
+   ...
+   [0.2120098 ]
+   [0.21761387]
+   [0.25012042]]
+
+  [[0.26507098]
+   [0.29201517]
+   [0.26774791]
+   ...
+   [0.22035846]
+   [0.22426471]
+   [0.25290543]]
+
+  [[0.26236894]
+   [0.29580014]
+   [0.29796815]
+   ...
+   [0.23221975]
+   [0.23594516]
+   [0.25032467]]
+
+  ...
+
+  [[0.36066389]
+   [0.41659135]
+   [0.44968384]
+   ...
+   [0.4982524 ]
+   [0.62523106]
+   [0.59836601]]
+
+  [[0.39158624]
+   [0.44032246]
+   [0.46785131]
+   ...
+   [0.46504927]
+   [0.58510263]
+   [0.61083155]]
+
+  [[0.41985294]
+   [0.46405356]
+   [0.48623579]
+   ...
+   [0.51952444]
+   [0.54460018]
+   [0.60801037]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+[08/Jun/2019 13:48:48] "POST /uploadFile/ HTTP/1.1" 200 13046
+[08/Jun/2019 13:48:48] "GET /static/test.jpg HTTP/1.1" 200 13046
+[08/Jun/2019 13:53:15] "GET /favicon.ico HTTP/1.1" 200 10458
+[08/Jun/2019 13:53:19] "GET /favicon.ico HTTP/1.1" 200 10458
+[08/Jun/2019 13:53:39] "GET /favicon.ico HTTP/1.1" 200 10458
+[08/Jun/2019 13:53:56] "GET /favicon.ico HTTP/1.1" 200 10458
+[08/Jun/2019 13:53:58] "GET /favicon.ico HTTP/1.1" 200 10458
+[08/Jun/2019 13:54:00] "GET /favicon.ico HTTP/1.1" 200 10458
+[08/Jun/2019 13:54:00] "GET /favicon.ico HTTP/1.1" 200 10458
+[08/Jun/2019 13:54:01] "GET / HTTP/1.1" 200 10458
+[08/Jun/2019 13:54:01] "GET /static/JMU2.jpg HTTP/1.1" 304 0
+[08/Jun/2019 13:54:01] "GET /static/JMU3.jpg HTTP/1.1" 304 0
+[08/Jun/2019 13:54:01] "GET /static/JMU1.jpg HTTP/1.1" 304 0
+[08/Jun/2019 13:54:01] "GET /%E9%BB%98%E8%AE%A4%E5%9B%BE%E7%89%87%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84 HTTP/1.1" 200 10458
+[08/Jun/2019 13:54:01] "GET /static/JMU4.jpg HTTP/1.1" 304 0
+[08/Jun/2019 13:54:01] "GET /static/login2.jpg HTTP/1.1" 304 0
+[08/Jun/2019 13:54:08] "POST /uploadFile/ HTTP/1.1" 200 19705
+[08/Jun/2019 13:54:08] "GET /static/test.jpg HTTP/1.1" 200 19705
+[4.884394e-05, 7.04242e-07, 1.5553534e-05, 0.9888122, 3.9370807e-05, 7.744576e-06, 0.011075634]
+[1.8659855e-05, 7.2328106e-07, 8.878494e-06, 0.9802648, 0.00011767024, 1.4886926e-05, 0.019574469]
+[0.005514493, 2.0896208e-05, 0.003799626, 0.9874687, 6.622183e-05, 0.0013322585, 0.0017976556]
+angry: 0.00558199700753903 disgust: 2.232373134347654e-05  fear: 0.0038240579333432834  happy: 2.9565457105636597  sad: 0.00022326287944451906  surprise: 0.001354889957838168  neutral: 0.0324477581307292
+Emotion :  happy
+index: happy
+emotion_image [[[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ ...
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]]
+/root/facial/facial_recognition/Expression
+{'happy': 2.9565457105636597}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: 500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+{}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: u=3400595878,954284595&fm=26&gp=0.jpg
+u=3400595878,954284595&fm=26&gp=0.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+rsh_image [[[[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  ...
+
+  [[0.25490197]
+   [0.25490197]
+   [0.25490197]
+   ...
+   [0.27450981]
+   [0.27450981]
+   [0.27450981]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490195]
+   [0.25490195]
+   [0.25490195]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+[[0.0027533132, 6.232459e-05, 0.51848775, 0.0035941731, 0.36160293, 0.03378594, 0.07971357], [0.002753314, 6.232461e-05, 0.51848793, 0.0035941743, 0.36160287, 0.03378592, 0.07971349], [0.010000282, 0.00021570794, 0.4471694, 0.0051341145, 0.45884937, 0.026234444, 0.052396744]]
+rsh_image [[[[0.25012042]
+   [0.21761387]
+   [0.2120098 ]
+   ...
+   [0.27454853]
+   [0.28753319]
+   [0.24399552]]
+
+  [[0.25290543]
+   [0.22426471]
+   [0.22035846]
+   ...
+   [0.26774791]
+   [0.29201517]
+   [0.26507098]]
+
+  [[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  ...
+
+  [[0.59836601]
+   [0.62523106]
+   [0.4982524 ]
+   ...
+   [0.44968384]
+   [0.41659135]
+   [0.36066389]]
+
+  [[0.61083155]
+   [0.58510263]
+   [0.46504927]
+   ...
+   [0.46785131]
+   [0.44032246]
+   [0.39158624]]
+
+  [[0.60801037]
+   [0.54460018]
+   [0.51952444]
+   ...
+   [0.48623579]
+   [0.46405356]
+   [0.41985294]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+rsh_image [[[[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  [[0.24554813]
+   [0.24351926]
+   [0.23638666]
+   ...
+   [0.32728729]
+   [0.30808329]
+   [0.25938001]]
+
+  [[0.25318078]
+   [0.25424597]
+   [0.23348349]
+   ...
+   [0.31980691]
+   [0.31963484]
+   [0.27535862]]
+
+  ...
+
+  [[0.64379517]
+   [0.58589644]
+   [0.52174827]
+   ...
+   [0.39617649]
+   [0.32527234]
+   [0.28192478]]
+
+  [[0.61938836]
+   [0.58408191]
+   [0.5316333 ]
+   ...
+   [0.40269458]
+   [0.35970256]
+   [0.29719588]]
+
+  [[0.60021829]
+   [0.59443168]
+   [0.52739566]
+   ...
+   [0.42342176]
+   [0.38357843]
+   [0.32418599]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+rsh_image [[[[0.24399552]
+   [0.28753319]
+   [0.27454853]
+   ...
+   [0.2120098 ]
+   [0.21761387]
+   [0.25012042]]
+
+  [[0.26507098]
+   [0.29201517]
+   [0.26774791]
+   ...
+   [0.22035846]
+   [0.22426471]
+   [0.25290543]]
+
+  [[0.26236894]
+   [0.29580014]
+   [0.29796815]
+   ...
+   [0.23221975]
+   [0.23594516]
+   [0.25032467]]
+
+  ...
+
+  [[0.36066389]
+   [0.41659135]
+   [0.44968384]
+   ...
+   [0.4982524 ]
+   [0.62523106]
+   [0.59836601]]
+
+  [[0.39158624]
+   [0.44032246]
+   [0.46785131]
+   ...
+   [0.46504927]
+   [0.58510263]
+   [0.61083155]]
+
+  [[0.41985294]
+   [0.46405356]
+   [0.48623579]
+   ...
+   [0.51952444]
+   [0.54460018]
+   [0.60801037]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+[08/Jun/2019 13:54:12] "POST /uploadFile/ HTTP/1.1" 200 13046
+[4.884394e-05, 7.04242e-07, 1.5553534e-05, 0.9888122, 3.9370807e-05, 7.744576e-06, 0.011075634]
+[1.8659855e-05, 7.2328106e-07, 8.878494e-06, 0.9802648, 0.00011767024, 1.4886926e-05, 0.019574469]
+[0.005514493, 2.0896208e-05, 0.003799626, 0.9874687, 6.622183e-05, 0.0013322585, 0.0017976556]
+angry: 0.00558199700753903 disgust: 2.232373134347654e-05  fear: 0.0038240579333432834  happy: 2.9565457105636597  sad: 0.00022326287944451906  surprise: 0.001354889957838168  neutral: 0.0324477581307292
+Emotion :  happy
+index: happy
+emotion_image [[[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ ...
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]]
+/root/facial/facial_recognition/Expression
+{'happy': 2.9565457105636597}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: u=3400595878,954284595&fm=26&gp=0.jpg
+u=3400595878,954284595&fm=26&gp=0.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 19ms/step
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 17ms/step
+rsh_image [[[[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  ...
+
+  [[0.25490197]
+   [0.25490197]
+   [0.25490197]
+   ...
+   [0.27450981]
+   [0.27450981]
+   [0.27450981]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490195]
+   [0.25490195]
+   [0.25490195]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]]] length 1
+
+1/1 [==============================] - 0s 26ms/step
+[[0.0027533132, 6.232459e-05, 0.51848775, 0.0035941731, 0.36160293, 0.03378594, 0.07971357], [0.002753314, 6.232461e-05, 0.51848793, 0.0035941743, 0.36160287, 0.03378592, 0.07971349], [0.010000282, 0.00021570794, 0.4471694, 0.0051341145, 0.45884937, 0.026234444, 0.052396744]]
+rsh_image [[[[0.25012042]
+   [0.21761387]
+   [0.2120098 ]
+   ...
+   [0.27454853]
+   [0.28753319]
+   [0.24399552]]
+
+  [[0.25290543]
+   [0.22426471]
+   [0.22035846]
+   ...
+   [0.26774791]
+   [0.29201517]
+   [0.26507098]]
+
+  [[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  ...
+
+  [[0.59836601]
+   [0.62523106]
+   [0.4982524 ]
+   ...
+   [0.44968384]
+   [0.41659135]
+   [0.36066389]]
+
+  [[0.61083155]
+   [0.58510263]
+   [0.46504927]
+   ...
+   [0.46785131]
+   [0.44032246]
+   [0.39158624]]
+
+  [[0.60801037]
+   [0.54460018]
+   [0.51952444]
+   ...
+   [0.48623579]
+   [0.46405356]
+   [0.41985294]]]] length 1
+
+1/1 [==============================] - 0s 26ms/step
+rsh_image [[[[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  [[0.24554813]
+   [0.24351926]
+   [0.23638666]
+   ...
+   [0.32728729]
+   [0.30808329]
+   [0.25938001]]
+
+  [[0.25318078]
+   [0.25424597]
+   [0.23348349]
+   ...
+   [0.31980691]
+   [0.31963484]
+   [0.27535862]]
+
+  ...
+
+  [[0.64379517]
+   [0.58589644]
+   [0.52174827]
+   ...
+   [0.39617649]
+   [0.32527234]
+   [0.28192478]]
+
+  [[0.61938836]
+   [0.58408191]
+   [0.5316333 ]
+   ...
+   [0.40269458]
+   [0.35970256]
+   [0.29719588]]
+
+  [[0.60021829]
+   [0.59443168]
+   [0.52739566]
+   ...
+   [0.42342176]
+   [0.38357843]
+   [0.32418599]]]] length 1
+
+1/1 [==============================] - 0s 20ms/step
+rsh_image [[[[0.24399552]
+   [0.28753319]
+   [0.27454853]
+   ...
+   [0.2120098 ]
+   [0.21761387]
+   [0.25012042]]
+
+  [[0.26507098]
+   [0.29201517]
+   [0.26774791]
+   ...
+   [0.22035846]
+   [0.22426471]
+   [0.25290543]]
+
+  [[0.26236894]
+   [0.29580014]
+   [0.29796815]
+   ...
+   [0.23221975]
+   [0.23594516]
+   [0.25032467]]
+
+  ...
+
+  [[0.36066389]
+   [0.41659135]
+   [0.44968384]
+   ...
+   [0.4982524 ]
+   [0.62523106]
+   [0.59836601]]
+
+  [[0.39158624]
+   [0.44032246]
+   [0.46785131]
+   ...
+   [0.46504927]
+   [0.58510263]
+   [0.61083155]]
+
+  [[0.41985294]
+   [0.46405356]
+   [0.48623579]
+   ...
+   [0.51952444]
+   [0.54460018]
+   [0.60801037]]]] length 1
+
+1/1 [==============================] - 0s 19ms/step
+[08/Jun/2019 13:54:18] "POST /uploadFile/ HTTP/1.1" 200 13046
+----------------------------------------
+Exception happened during processing of request from ('218.85.118.193', 53417)
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('218.85.118.193', 53419)
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('218.85.118.193', 53418)
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('218.85.118.193', 53423)
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[08/Jun/2019 13:55:01] "GET /index HTTP/1.1" 200 10458
+[08/Jun/2019 13:55:01] "GET /static/JMU2.jpg HTTP/1.1" 200 34982
+[08/Jun/2019 13:55:01] "GET /static/JMU1.jpg HTTP/1.1" 200 544167
+[08/Jun/2019 13:55:02] "GET /static/JMU3.jpg HTTP/1.1" 200 95254
+[08/Jun/2019 13:55:02] "GET /%E9%BB%98%E8%AE%A4%E5%9B%BE%E7%89%87%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84 HTTP/1.1" 200 10458
+[08/Jun/2019 13:55:02] "GET /static/JMU4.jpg HTTP/1.1" 200 93793
+[08/Jun/2019 13:55:02] "GET /static/login2.jpg HTTP/1.1" 200 828336
+[08/Jun/2019 13:55:03] "GET /favicon.ico HTTP/1.1" 200 10458
+[4.884394e-05, 7.04242e-07, 1.5553534e-05, 0.9888122, 3.9370807e-05, 7.744576e-06, 0.011075634]
+[1.8659855e-05, 7.2328106e-07, 8.878494e-06, 0.9802648, 0.00011767024, 1.4886926e-05, 0.019574469]
+[0.005514493, 2.0896208e-05, 0.003799626, 0.9874687, 6.622183e-05, 0.0013322585, 0.0017976556]
+angry: 0.00558199700753903 disgust: 2.232373134347654e-05  fear: 0.0038240579333432834  happy: 2.9565457105636597  sad: 0.00022326287944451906  surprise: 0.001354889957838168  neutral: 0.0324477581307292
+Emotion :  happy
+index: happy
+emotion_image [[[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ ...
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]]
+/root/facial/facial_recognition/Expression
+{'happy': 2.9565457105636597}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: u=3400595878,954284595&fm=26&gp=0.jpg
+u=3400595878,954284595&fm=26&gp=0.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  ...
+
+  [[0.25490197]
+   [0.25490197]
+   [0.25490197]
+   ...
+   [0.27450981]
+   [0.27450981]
+   [0.27450981]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490195]
+   [0.25490195]
+   [0.25490195]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+[[0.0027533132, 6.232459e-05, 0.51848775, 0.0035941731, 0.36160293, 0.03378594, 0.07971357], [0.002753314, 6.232461e-05, 0.51848793, 0.0035941743, 0.36160287, 0.03378592, 0.07971349], [0.010000282, 0.00021570794, 0.4471694, 0.0051341145, 0.45884937, 0.026234444, 0.052396744]]
+rsh_image [[[[0.25012042]
+   [0.21761387]
+   [0.2120098 ]
+   ...
+   [0.27454853]
+   [0.28753319]
+   [0.24399552]]
+
+  [[0.25290543]
+   [0.22426471]
+   [0.22035846]
+   ...
+   [0.26774791]
+   [0.29201517]
+   [0.26507098]]
+
+  [[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  ...
+
+  [[0.59836601]
+   [0.62523106]
+   [0.4982524 ]
+   ...
+   [0.44968384]
+   [0.41659135]
+   [0.36066389]]
+
+  [[0.61083155]
+   [0.58510263]
+   [0.46504927]
+   ...
+   [0.46785131]
+   [0.44032246]
+   [0.39158624]]
+
+  [[0.60801037]
+   [0.54460018]
+   [0.51952444]
+   ...
+   [0.48623579]
+   [0.46405356]
+   [0.41985294]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  [[0.24554813]
+   [0.24351926]
+   [0.23638666]
+   ...
+   [0.32728729]
+   [0.30808329]
+   [0.25938001]]
+
+  [[0.25318078]
+   [0.25424597]
+   [0.23348349]
+   ...
+   [0.31980691]
+   [0.31963484]
+   [0.27535862]]
+
+  ...
+
+  [[0.64379517]
+   [0.58589644]
+   [0.52174827]
+   ...
+   [0.39617649]
+   [0.32527234]
+   [0.28192478]]
+
+  [[0.61938836]
+   [0.58408191]
+   [0.5316333 ]
+   ...
+   [0.40269458]
+   [0.35970256]
+   [0.29719588]]
+
+  [[0.60021829]
+   [0.59443168]
+   [0.52739566]
+   ...
+   [0.42342176]
+   [0.38357843]
+   [0.32418599]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.24399552]
+   [0.28753319]
+   [0.27454853]
+   ...
+   [0.2120098 ]
+   [0.21761387]
+   [0.25012042]]
+
+  [[0.26507098]
+   [0.29201517]
+   [0.26774791]
+   ...
+   [0.22035846]
+   [0.22426471]
+   [0.25290543]]
+
+  [[0.26236894]
+   [0.29580014]
+   [0.29796815]
+   ...
+   [0.23221975]
+   [0.23594516]
+   [0.25032467]]
+
+  ...
+
+  [[0.36066389]
+   [0.41659135]
+   [0.44968384]
+   ...
+   [0.4982524 ]
+   [0.62523106]
+   [0.59836601]]
+
+  [[0.39158624]
+   [0.44032246]
+   [0.46785131]
+   ...
+   [0.46504927]
+   [0.58510263]
+   [0.61083155]]
+
+  [[0.41985294]
+   [0.46405356]
+   [0.48623579]
+   ...
+   [0.51952444]
+   [0.54460018]
+   [0.60801037]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+[08/Jun/2019 13:55:08] "POST /uploadFile/ HTTP/1.1" 200 13046
+[08/Jun/2019 13:55:08] "GET /static/test.jpg HTTP/1.1" 200 13046
+[08/Jun/2019 13:55:12] "POST /uploadFile/ HTTP/1.1" 200 19705
+[08/Jun/2019 13:55:12] "GET /static/test.jpg HTTP/1.1" 200 19705
+[08/Jun/2019 13:56:09] "GET /static/test.jpg HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/root/anaconda3/envs/facial/lib/python3.6/site-packages/h5py/__init__.py:34: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+WARNING:tensorflow:From /root/anaconda3/envs/facial/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /root/anaconda3/envs/facial/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-06-08 14:02:40.862332: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-06-08 14:02:40.867888: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2494220000 Hz
+2019-06-08 14:02:40.868076: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x4efd7f0 executing computations on platform Host. Devices:
+2019-06-08 14:02:40.868089: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+Performing system checks...
+
+[[[[0.]
+   [0.]
+   [0.]
+   ...
+   [0.]
+   [0.]
+   [0.]]
+
+  [[0.]
+   [0.]
+   [0.]
+   ...
+   [0.]
+   [0.]
+   [0.]]
+
+  [[0.]
+   [0.]
+   [0.]
+   ...
+   [0.]
+   [0.]
+   [0.]]
+
+  ...
+
+  [[0.]
+   [0.]
+   [0.]
+   ...
+   [0.]
+   [0.]
+   [0.]]
+
+  [[0.]
+   [0.]
+   [0.]
+   ...
+   [0.]
+   [0.]
+   [0.]]
+
+  [[0.]
+   [0.]
+   [0.]
+   ...
+   [0.]
+   [0.]
+   [0.]]]]
+
+1/1 [==============================] - 0s 41ms/step
+[08/Jun/2019 14:02:50] "GET /index HTTP/1.1" 200 10458
+[08/Jun/2019 14:02:50] "GET /%E9%BB%98%E8%AE%A4%E5%9B%BE%E7%89%87%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84 HTTP/1.1" 200 10458
+[08/Jun/2019 14:02:51] "GET /favicon.ico HTTP/1.1" 200 10458
+[08/Jun/2019 14:03:30] "GET /index HTTP/1.1" 200 10458
+[08/Jun/2019 14:03:30] "GET /%E9%BB%98%E8%AE%A4%E5%9B%BE%E7%89%87%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84 HTTP/1.1" 200 10458
+[08/Jun/2019 14:03:33] "GET / HTTP/1.1" 200 10458
+[08/Jun/2019 14:03:33] "GET /favicon.ico HTTP/1.1" 200 10458
+[08/Jun/2019 14:03:40] "POST /uploadFile/ HTTP/1.1" 200 19705
+[08/Jun/2019 14:03:40] "GET /static/test.jpg HTTP/1.1" 200 19705
+System check identified no issues (0 silenced).
+June 08, 2019 - 14:02:41
+Django version 2.2, using settings 'project.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: 500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+500fd9f9d72a605908e0c1a02634349b023bba93.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+{}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: u=3400595878,954284595&fm=26&gp=0.jpg
+u=3400595878,954284595&fm=26&gp=0.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 14ms/step
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 18ms/step
+rsh_image [[[[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  ...
+
+  [[0.25490197]
+   [0.25490197]
+   [0.25490197]
+   ...
+   [0.27450981]
+   [0.27450981]
+   [0.27450981]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490195]
+   [0.25490195]
+   [0.25490195]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]]] length 1
+
+1/1 [==============================] - 0s 20ms/step
+[[0.0027533132, 6.232459e-05, 0.51848775, 0.0035941731, 0.36160293, 0.03378594, 0.07971357], [0.002753314, 6.232461e-05, 0.51848793, 0.0035941743, 0.36160287, 0.03378592, 0.07971349], [0.010000282, 0.00021570794, 0.4471694, 0.0051341145, 0.45884937, 0.026234444, 0.052396744]]
+rsh_image [[[[0.25012042]
+   [0.21761387]
+   [0.2120098 ]
+   ...
+   [0.27454853]
+   [0.28753319]
+   [0.24399552]]
+
+  [[0.25290543]
+   [0.22426471]
+   [0.22035846]
+   ...
+   [0.26774791]
+   [0.29201517]
+   [0.26507098]]
+
+  [[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  ...
+
+  [[0.59836601]
+   [0.62523106]
+   [0.4982524 ]
+   ...
+   [0.44968384]
+   [0.41659135]
+   [0.36066389]]
+
+  [[0.61083155]
+   [0.58510263]
+   [0.46504927]
+   ...
+   [0.46785131]
+   [0.44032246]
+   [0.39158624]]
+
+  [[0.60801037]
+   [0.54460018]
+   [0.51952444]
+   ...
+   [0.48623579]
+   [0.46405356]
+   [0.41985294]]]] length 1
+
+1/1 [==============================] - 0s 13ms/step
+rsh_image [[[[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  [[0.24554813]
+   [0.24351926]
+   [0.23638666]
+   ...
+   [0.32728729]
+   [0.30808329]
+   [0.25938001]]
+
+  [[0.25318078]
+   [0.25424597]
+   [0.23348349]
+   ...
+   [0.31980691]
+   [0.31963484]
+   [0.27535862]]
+
+  ...
+
+  [[0.64379517]
+   [0.58589644]
+   [0.52174827]
+   ...
+   [0.39617649]
+   [0.32527234]
+   [0.28192478]]
+
+  [[0.61938836]
+   [0.58408191]
+   [0.5316333 ]
+   ...
+   [0.40269458]
+   [0.35970256]
+   [0.29719588]]
+
+  [[0.60021829]
+   [0.59443168]
+   [0.52739566]
+   ...
+   [0.42342176]
+   [0.38357843]
+   [0.32418599]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+rsh_image [[[[0.24399552]
+   [0.28753319]
+   [0.27454853]
+   ...
+   [0.2120098 ]
+   [0.21761387]
+   [0.25012042]]
+
+  [[0.26507098]
+   [0.29201517]
+   [0.26774791]
+   ...
+   [0.22035846]
+   [0.22426471]
+   [0.25290543]]
+
+  [[0.26236894]
+   [0.29580014]
+   [0.29796815]
+   ...
+   [0.23221975]
+   [0.23594516]
+   [0.25032467]]
+
+  ...
+
+  [[0.36066389]
+   [0.41659135]
+   [0.44968384]
+   ...
+   [0.4982524 ]
+   [0.62523106]
+   [0.59836601]]
+
+  [[0.39158624]
+   [0.44032246]
+   [0.46785131]
+   ...
+   [0.46504927]
+   [0.58510263]
+   [0.61083155]]
+
+  [[0.41985294]
+   [0.46405356]
+   [0.48623579]
+   ...
+   [0.51952444]
+   [0.54460018]
+   [0.60801037]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+[08/Jun/2019 14:03:44] "POST /uploadFile/ HTTP/1.1" 200 13046
+[4.884394e-05, 7.04242e-07, 1.5553534e-05, 0.9888122, 3.9370807e-05, 7.744576e-06, 0.011075634]
+[1.8659855e-05, 7.2328106e-07, 8.878494e-06, 0.9802648, 0.00011767024, 1.4886926e-05, 0.019574469]
+[0.005514493, 2.0896208e-05, 0.003799626, 0.9874687, 6.622183e-05, 0.0013322585, 0.0017976556]
+angry: 0.00558199700753903 disgust: 2.232373134347654e-05  fear: 0.0038240579333432834  happy: 2.9565457105636597  sad: 0.00022326287944451906  surprise: 0.001354889957838168  neutral: 0.0324477581307292
+Emotion :  happy
+index: happy
+emotion_image [[[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ ...
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]]
+/root/facial/facial_recognition/Expression
+{'happy': 2.9565457105636597}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: u=3400595878,954284595&fm=26&gp=0.jpg
+u=3400595878,954284595&fm=26&gp=0.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+rsh_image [[[[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  ...
+
+  [[0.25490197]
+   [0.25490197]
+   [0.25490197]
+   ...
+   [0.27450981]
+   [0.27450981]
+   [0.27450981]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490195]
+   [0.25490195]
+   [0.25490195]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+[[0.0027533132, 6.232459e-05, 0.51848775, 0.0035941731, 0.36160293, 0.03378594, 0.07971357], [0.002753314, 6.232461e-05, 0.51848793, 0.0035941743, 0.36160287, 0.03378592, 0.07971349], [0.010000282, 0.00021570794, 0.4471694, 0.0051341145, 0.45884937, 0.026234444, 0.052396744]]
+rsh_image [[[[0.25012042]
+   [0.21761387]
+   [0.2120098 ]
+   ...
+   [0.27454853]
+   [0.28753319]
+   [0.24399552]]
+
+  [[0.25290543]
+   [0.22426471]
+   [0.22035846]
+   ...
+   [0.26774791]
+   [0.29201517]
+   [0.26507098]]
+
+  [[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  ...
+
+  [[0.59836601]
+   [0.62523106]
+   [0.4982524 ]
+   ...
+   [0.44968384]
+   [0.41659135]
+   [0.36066389]]
+
+  [[0.61083155]
+   [0.58510263]
+   [0.46504927]
+   ...
+   [0.46785131]
+   [0.44032246]
+   [0.39158624]]
+
+  [[0.60801037]
+   [0.54460018]
+   [0.51952444]
+   ...
+   [0.48623579]
+   [0.46405356]
+   [0.41985294]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  [[0.24554813]
+   [0.24351926]
+   [0.23638666]
+   ...
+   [0.32728729]
+   [0.30808329]
+   [0.25938001]]
+
+  [[0.25318078]
+   [0.25424597]
+   [0.23348349]
+   ...
+   [0.31980691]
+   [0.31963484]
+   [0.27535862]]
+
+  ...
+
+  [[0.64379517]
+   [0.58589644]
+   [0.52174827]
+   ...
+   [0.39617649]
+   [0.32527234]
+   [0.28192478]]
+
+  [[0.61938836]
+   [0.58408191]
+   [0.5316333 ]
+   ...
+   [0.40269458]
+   [0.35970256]
+   [0.29719588]]
+
+  [[0.60021829]
+   [0.59443168]
+   [0.52739566]
+   ...
+   [0.42342176]
+   [0.38357843]
+   [0.32418599]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.24399552]
+   [0.28753319]
+   [0.27454853]
+   ...
+   [0.2120098 ]
+   [0.21761387]
+   [0.25012042]]
+
+  [[0.26507098]
+   [0.29201517]
+   [0.26774791]
+   ...
+   [0.22035846]
+   [0.22426471]
+   [0.25290543]]
+
+  [[0.26236894]
+   [0.29580014]
+   [0.29796815]
+   ...
+   [0.23221975]
+   [0.23594516]
+   [0.25032467]]
+
+  ...
+
+  [[0.36066389]
+   [0.41659135]
+   [0.44968384]
+   ...
+   [0.4982524 ]
+   [0.62523106]
+   [0.59836601]]
+
+  [[0.39158624]
+   [0.44032246]
+   [0.46785131]
+   ...
+   [0.46504927]
+   [0.58510263]
+   [0.61083155]]
+
+  [[0.41985294]
+   [0.46405356]
+   [0.48623579]
+   ...
+   [0.51952444]
+   [0.54460018]
+   [0.60801037]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+[08/Jun/2019 14:03:45] "POST /uploadFile/ HTTP/1.1" 200 13046
+[4.884394e-05, 7.04242e-07, 1.5553534e-05, 0.9888122, 3.9370807e-05, 7.744576e-06, 0.011075634]
+[1.8659855e-05, 7.2328106e-07, 8.878494e-06, 0.9802648, 0.00011767024, 1.4886926e-05, 0.019574469]
+[0.005514493, 2.0896208e-05, 0.003799626, 0.9874687, 6.622183e-05, 0.0013322585, 0.0017976556]
+angry: 0.00558199700753903 disgust: 2.232373134347654e-05  fear: 0.0038240579333432834  happy: 2.9565457105636597  sad: 0.00022326287944451906  surprise: 0.001354889957838168  neutral: 0.0324477581307292
+Emotion :  happy
+index: happy
+emotion_image [[[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ ...
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]]
+/root/facial/facial_recognition/Expression
+{'happy': 2.9565457105636597}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: u=3400595878,954284595&fm=26&gp=0.jpg
+u=3400595878,954284595&fm=26&gp=0.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  ...
+
+  [[0.25490197]
+   [0.25490197]
+   [0.25490197]
+   ...
+   [0.27450981]
+   [0.27450981]
+   [0.27450981]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490195]
+   [0.25490195]
+   [0.25490195]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]]] length 1
+
+1/1 [==============================] - 0s 18ms/step
+[[0.0027533132, 6.232459e-05, 0.51848775, 0.0035941731, 0.36160293, 0.03378594, 0.07971357], [0.002753314, 6.232461e-05, 0.51848793, 0.0035941743, 0.36160287, 0.03378592, 0.07971349], [0.010000282, 0.00021570794, 0.4471694, 0.0051341145, 0.45884937, 0.026234444, 0.052396744]]
+rsh_image [[[[0.25012042]
+   [0.21761387]
+   [0.2120098 ]
+   ...
+   [0.27454853]
+   [0.28753319]
+   [0.24399552]]
+
+  [[0.25290543]
+   [0.22426471]
+   [0.22035846]
+   ...
+   [0.26774791]
+   [0.29201517]
+   [0.26507098]]
+
+  [[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  ...
+
+  [[0.59836601]
+   [0.62523106]
+   [0.4982524 ]
+   ...
+   [0.44968384]
+   [0.41659135]
+   [0.36066389]]
+
+  [[0.61083155]
+   [0.58510263]
+   [0.46504927]
+   ...
+   [0.46785131]
+   [0.44032246]
+   [0.39158624]]
+
+  [[0.60801037]
+   [0.54460018]
+   [0.51952444]
+   ...
+   [0.48623579]
+   [0.46405356]
+   [0.41985294]]]] length 1
+
+1/1 [==============================] - 0s 16ms/step
+rsh_image [[[[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  [[0.24554813]
+   [0.24351926]
+   [0.23638666]
+   ...
+   [0.32728729]
+   [0.30808329]
+   [0.25938001]]
+
+  [[0.25318078]
+   [0.25424597]
+   [0.23348349]
+   ...
+   [0.31980691]
+   [0.31963484]
+   [0.27535862]]
+
+  ...
+
+  [[0.64379517]
+   [0.58589644]
+   [0.52174827]
+   ...
+   [0.39617649]
+   [0.32527234]
+   [0.28192478]]
+
+  [[0.61938836]
+   [0.58408191]
+   [0.5316333 ]
+   ...
+   [0.40269458]
+   [0.35970256]
+   [0.29719588]]
+
+  [[0.60021829]
+   [0.59443168]
+   [0.52739566]
+   ...
+   [0.42342176]
+   [0.38357843]
+   [0.32418599]]]] length 1
+
+1/1 [==============================] - 0s 25ms/step
+rsh_image [[[[0.24399552]
+   [0.28753319]
+   [0.27454853]
+   ...
+   [0.2120098 ]
+   [0.21761387]
+   [0.25012042]]
+
+  [[0.26507098]
+   [0.29201517]
+   [0.26774791]
+   ...
+   [0.22035846]
+   [0.22426471]
+   [0.25290543]]
+
+  [[0.26236894]
+   [0.29580014]
+   [0.29796815]
+   ...
+   [0.23221975]
+   [0.23594516]
+   [0.25032467]]
+
+  ...
+
+  [[0.36066389]
+   [0.41659135]
+   [0.44968384]
+   ...
+   [0.4982524 ]
+   [0.62523106]
+   [0.59836601]]
+
+  [[0.39158624]
+   [0.44032246]
+   [0.46785131]
+   ...
+   [0.46504927]
+   [0.58510263]
+   [0.61083155]]
+
+  [[0.41985294]
+   [0.46405356]
+   [0.48623579]
+   ...
+   [0.51952444]
+   [0.54460018]
+   [0.60801037]]]] length 1
+
+1/1 [==============================] - 0s 18ms/step
+[08/Jun/2019 14:03:46] "POST /uploadFile/ HTTP/1.1" 200 13046
+[4.884394e-05, 7.04242e-07, 1.5553534e-05, 0.9888122, 3.9370807e-05, 7.744576e-06, 0.011075634]
+[1.8659855e-05, 7.2328106e-07, 8.878494e-06, 0.9802648, 0.00011767024, 1.4886926e-05, 0.019574469]
+[0.005514493, 2.0896208e-05, 0.003799626, 0.9874687, 6.622183e-05, 0.0013322585, 0.0017976556]
+angry: 0.00558199700753903 disgust: 2.232373134347654e-05  fear: 0.0038240579333432834  happy: 2.9565457105636597  sad: 0.00022326287944451906  surprise: 0.001354889957838168  neutral: 0.0324477581307292
+Emotion :  happy
+index: happy
+emotion_image [[[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ ...
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]]
+/root/facial/facial_recognition/Expression
+{'happy': 2.9565457105636597}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: u=3400595878,954284595&fm=26&gp=0.jpg
+u=3400595878,954284595&fm=26&gp=0.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  ...
+
+  [[0.25490197]
+   [0.25490197]
+   [0.25490197]
+   ...
+   [0.27450981]
+   [0.27450981]
+   [0.27450981]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490195]
+   [0.25490195]
+   [0.25490195]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+[[0.0027533132, 6.232459e-05, 0.51848775, 0.0035941731, 0.36160293, 0.03378594, 0.07971357], [0.002753314, 6.232461e-05, 0.51848793, 0.0035941743, 0.36160287, 0.03378592, 0.07971349], [0.010000282, 0.00021570794, 0.4471694, 0.0051341145, 0.45884937, 0.026234444, 0.052396744]]
+rsh_image [[[[0.25012042]
+   [0.21761387]
+   [0.2120098 ]
+   ...
+   [0.27454853]
+   [0.28753319]
+   [0.24399552]]
+
+  [[0.25290543]
+   [0.22426471]
+   [0.22035846]
+   ...
+   [0.26774791]
+   [0.29201517]
+   [0.26507098]]
+
+  [[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  ...
+
+  [[0.59836601]
+   [0.62523106]
+   [0.4982524 ]
+   ...
+   [0.44968384]
+   [0.41659135]
+   [0.36066389]]
+
+  [[0.61083155]
+   [0.58510263]
+   [0.46504927]
+   ...
+   [0.46785131]
+   [0.44032246]
+   [0.39158624]]
+
+  [[0.60801037]
+   [0.54460018]
+   [0.51952444]
+   ...
+   [0.48623579]
+   [0.46405356]
+   [0.41985294]]]] length 1
+
+1/1 [==============================] - 0s 10ms/step
+rsh_image [[[[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  [[0.24554813]
+   [0.24351926]
+   [0.23638666]
+   ...
+   [0.32728729]
+   [0.30808329]
+   [0.25938001]]
+
+  [[0.25318078]
+   [0.25424597]
+   [0.23348349]
+   ...
+   [0.31980691]
+   [0.31963484]
+   [0.27535862]]
+
+  ...
+
+  [[0.64379517]
+   [0.58589644]
+   [0.52174827]
+   ...
+   [0.39617649]
+   [0.32527234]
+   [0.28192478]]
+
+  [[0.61938836]
+   [0.58408191]
+   [0.5316333 ]
+   ...
+   [0.40269458]
+   [0.35970256]
+   [0.29719588]]
+
+  [[0.60021829]
+   [0.59443168]
+   [0.52739566]
+   ...
+   [0.42342176]
+   [0.38357843]
+   [0.32418599]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.24399552]
+   [0.28753319]
+   [0.27454853]
+   ...
+   [0.2120098 ]
+   [0.21761387]
+   [0.25012042]]
+
+  [[0.26507098]
+   [0.29201517]
+   [0.26774791]
+   ...
+   [0.22035846]
+   [0.22426471]
+   [0.25290543]]
+
+  [[0.26236894]
+   [0.29580014]
+   [0.29796815]
+   ...
+   [0.23221975]
+   [0.23594516]
+   [0.25032467]]
+
+  ...
+
+  [[0.36066389]
+   [0.41659135]
+   [0.44968384]
+   ...
+   [0.4982524 ]
+   [0.62523106]
+   [0.59836601]]
+
+  [[0.39158624]
+   [0.44032246]
+   [0.46785131]
+   ...
+   [0.46504927]
+   [0.58510263]
+   [0.61083155]]
+
+  [[0.41985294]
+   [0.46405356]
+   [0.48623579]
+   ...
+   [0.51952444]
+   [0.54460018]
+   [0.60801037]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+[08/Jun/2019 14:03:47] "POST /uploadFile/ HTTP/1.1" 200 13046
+[4.884394e-05, 7.04242e-07, 1.5553534e-05, 0.9888122, 3.9370807e-05, 7.744576e-06, 0.011075634]
+[1.8659855e-05, 7.2328106e-07, 8.878494e-06, 0.9802648, 0.00011767024, 1.4886926e-05, 0.019574469]
+[0.005514493, 2.0896208e-05, 0.003799626, 0.9874687, 6.622183e-05, 0.0013322585, 0.0017976556]
+angry: 0.00558199700753903 disgust: 2.232373134347654e-05  fear: 0.0038240579333432834  happy: 2.9565457105636597  sad: 0.00022326287944451906  surprise: 0.001354889957838168  neutral: 0.0324477581307292
+Emotion :  happy
+index: happy
+emotion_image [[[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ ...
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]]
+/root/facial/facial_recognition/Expression
+{'happy': 2.9565457105636597}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: u=3400595878,954284595&fm=26&gp=0.jpg
+u=3400595878,954284595&fm=26&gp=0.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  ...
+
+  [[0.25490197]
+   [0.25490197]
+   [0.25490197]
+   ...
+   [0.27450981]
+   [0.27450981]
+   [0.27450981]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490195]
+   [0.25490195]
+   [0.25490195]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+[[0.0027533132, 6.232459e-05, 0.51848775, 0.0035941731, 0.36160293, 0.03378594, 0.07971357], [0.002753314, 6.232461e-05, 0.51848793, 0.0035941743, 0.36160287, 0.03378592, 0.07971349], [0.010000282, 0.00021570794, 0.4471694, 0.0051341145, 0.45884937, 0.026234444, 0.052396744]]
+rsh_image [[[[0.25012042]
+   [0.21761387]
+   [0.2120098 ]
+   ...
+   [0.27454853]
+   [0.28753319]
+   [0.24399552]]
+
+  [[0.25290543]
+   [0.22426471]
+   [0.22035846]
+   ...
+   [0.26774791]
+   [0.29201517]
+   [0.26507098]]
+
+  [[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  ...
+
+  [[0.59836601]
+   [0.62523106]
+   [0.4982524 ]
+   ...
+   [0.44968384]
+   [0.41659135]
+   [0.36066389]]
+
+  [[0.61083155]
+   [0.58510263]
+   [0.46504927]
+   ...
+   [0.46785131]
+   [0.44032246]
+   [0.39158624]]
+
+  [[0.60801037]
+   [0.54460018]
+   [0.51952444]
+   ...
+   [0.48623579]
+   [0.46405356]
+   [0.41985294]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  [[0.24554813]
+   [0.24351926]
+   [0.23638666]
+   ...
+   [0.32728729]
+   [0.30808329]
+   [0.25938001]]
+
+  [[0.25318078]
+   [0.25424597]
+   [0.23348349]
+   ...
+   [0.31980691]
+   [0.31963484]
+   [0.27535862]]
+
+  ...
+
+  [[0.64379517]
+   [0.58589644]
+   [0.52174827]
+   ...
+   [0.39617649]
+   [0.32527234]
+   [0.28192478]]
+
+  [[0.61938836]
+   [0.58408191]
+   [0.5316333 ]
+   ...
+   [0.40269458]
+   [0.35970256]
+   [0.29719588]]
+
+  [[0.60021829]
+   [0.59443168]
+   [0.52739566]
+   ...
+   [0.42342176]
+   [0.38357843]
+   [0.32418599]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.24399552]
+   [0.28753319]
+   [0.27454853]
+   ...
+   [0.2120098 ]
+   [0.21761387]
+   [0.25012042]]
+
+  [[0.26507098]
+   [0.29201517]
+   [0.26774791]
+   ...
+   [0.22035846]
+   [0.22426471]
+   [0.25290543]]
+
+  [[0.26236894]
+   [0.29580014]
+   [0.29796815]
+   ...
+   [0.23221975]
+   [0.23594516]
+   [0.25032467]]
+
+  ...
+
+  [[0.36066389]
+   [0.41659135]
+   [0.44968384]
+   ...
+   [0.4982524 ]
+   [0.62523106]
+   [0.59836601]]
+
+  [[0.39158624]
+   [0.44032246]
+   [0.46785131]
+   ...
+   [0.46504927]
+   [0.58510263]
+   [0.61083155]]
+
+  [[0.41985294]
+   [0.46405356]
+   [0.48623579]
+   ...
+   [0.51952444]
+   [0.54460018]
+   [0.60801037]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+[08/Jun/2019 14:03:53] "POST /uploadFile/ HTTP/1.1" 200 13046
+[08/Jun/2019 14:03:53] "GET /static/test.jpg HTTP/1.1" 200 13046
+[08/Jun/2019 14:07:11] "GET /static/test.jpg HTTP/1.1" 200 13046
+Invalid HTTP_HOST header: 'iZwz9801owvtmqmmprhc70Z'. You may need to add 'izwz9801owvtmqmmprhc70z' to ALLOWED_HOSTS.
+Bad Request: /
+[08/Jun/2019 14:09:33] "GET / HTTP/1.0" 400 60585
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/facial/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/root/anaconda3/envs/facial/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/root/anaconda3/envs/facial/lib/python3.6/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/root/anaconda3/envs/facial/lib/python3.6/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 775, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[08/Jun/2019 14:09:33] "GET / HTTP/1.0" 500 59
+----------------------------------------
+Exception happened during processing of request from ('139.59.42.211', 48512)
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/facial/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/root/anaconda3/envs/facial/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/root/anaconda3/envs/facial/lib/python3.6/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/root/anaconda3/envs/facial/lib/python3.6/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 775, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/facial/lib/python3.6/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 116, in handle_error
+    super().handle_error()
+  File "/root/anaconda3/envs/facial/lib/python3.6/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/root/anaconda3/envs/facial/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/root/anaconda3/envs/facial/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/root/anaconda3/envs/facial/lib/python3.6/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/root/anaconda3/envs/facial/lib/python3.6/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 194, in handle_one_request
+    handler.run(self.server.get_app())
+  File "/root/anaconda3/envs/facial/lib/python3.6/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 111, in close
+    super().close()
+  File "/root/anaconda3/envs/facial/lib/python3.6/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+[08/Jun/2019 14:15:57] "GET /favicon.ico HTTP/1.1" 200 10458
+[08/Jun/2019 14:15:59] "GET /favicon.ico HTTP/1.1" 200 10458
+[08/Jun/2019 14:15:59] "GET /favicon.ico HTTP/1.1" 200 10458
+[08/Jun/2019 14:15:59] "GET /favicon.ico HTTP/1.1" 200 10458
+[08/Jun/2019 14:15:59] "GET /favicon.ico HTTP/1.1" 200 10458
+[08/Jun/2019 14:16:01] "GET / HTTP/1.1" 200 10458
+[08/Jun/2019 14:16:01] "GET /%E9%BB%98%E8%AE%A4%E5%9B%BE%E7%89%87%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84 HTTP/1.1" 200 10458
+[4.884394e-05, 7.04242e-07, 1.5553534e-05, 0.9888122, 3.9370807e-05, 7.744576e-06, 0.011075634]
+[1.8659855e-05, 7.2328106e-07, 8.878494e-06, 0.9802648, 0.00011767024, 1.4886926e-05, 0.019574469]
+[0.005514493, 2.0896208e-05, 0.003799626, 0.9874687, 6.622183e-05, 0.0013322585, 0.0017976556]
+angry: 0.00558199700753903 disgust: 2.232373134347654e-05  fear: 0.0038240579333432834  happy: 2.9565457105636597  sad: 0.00022326287944451906  surprise: 0.001354889957838168  neutral: 0.0324477581307292
+Emotion :  happy
+index: happy
+emotion_image [[[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ ...
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]
+
+ [[0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]
+  ...
+  [0 0 0 0]
+  [0 0 0 0]
+  [0 0 0 0]]]
+/root/facial/facial_recognition/Expression
+{'happy': 2.9565457105636597}
+<module 'posixpath' from '/root/anaconda3/envs/facial/lib/python3.6/posixpath.py'>
+<WSGIRequest: POST '/uploadFile/'>
+123
+myFile: u=3400595878,954284595&fm=26&gp=0.jpg
+u=3400595878,954284595&fm=26&gp=0.jpg
+/root/facial/facial_recognition
+/root/facial/facial_recognition/facial/pic/haarcascade_frontalface_alt.xml
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  ...
+
+  [[0.27450981]
+   [0.27450981]
+   [0.27450981]
+   ...
+   [0.25490197]
+   [0.25490197]
+   [0.25490197]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490196]
+   [0.25490196]
+   [0.25490196]]
+
+  [[0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]
+   ...
+   [0.25490195]
+   [0.25490195]
+   [0.25490195]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  ...
+
+  [[0.25490197]
+   [0.25490197]
+   [0.25490197]
+   ...
+   [0.27450981]
+   [0.27450981]
+   [0.27450981]]
+
+  [[0.25490196]
+   [0.25490196]
+   [0.25490196]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]
+
+  [[0.25490195]
+   [0.25490195]
+   [0.25490195]
+   ...
+   [0.2745098 ]
+   [0.2745098 ]
+   [0.2745098 ]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+[[0.0027533132, 6.232459e-05, 0.51848775, 0.0035941731, 0.36160293, 0.03378594, 0.07971357], [0.002753314, 6.232461e-05, 0.51848793, 0.0035941743, 0.36160287, 0.03378592, 0.07971349], [0.010000282, 0.00021570794, 0.4471694, 0.0051341145, 0.45884937, 0.026234444, 0.052396744]]
+rsh_image [[[[0.25012042]
+   [0.21761387]
+   [0.2120098 ]
+   ...
+   [0.27454853]
+   [0.28753319]
+   [0.24399552]]
+
+  [[0.25290543]
+   [0.22426471]
+   [0.22035846]
+   ...
+   [0.26774791]
+   [0.29201517]
+   [0.26507098]]
+
+  [[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  ...
+
+  [[0.59836601]
+   [0.62523106]
+   [0.4982524 ]
+   ...
+   [0.44968384]
+   [0.41659135]
+   [0.36066389]]
+
+  [[0.61083155]
+   [0.58510263]
+   [0.46504927]
+   ...
+   [0.46785131]
+   [0.44032246]
+   [0.39158624]]
+
+  [[0.60801037]
+   [0.54460018]
+   [0.51952444]
+   ...
+   [0.48623579]
+   [0.46405356]
+   [0.41985294]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.25032467]
+   [0.23594516]
+   [0.23221975]
+   ...
+   [0.29796815]
+   [0.29580014]
+   [0.26236894]]
+
+  [[0.24554813]
+   [0.24351926]
+   [0.23638666]
+   ...
+   [0.32728729]
+   [0.30808329]
+   [0.25938001]]
+
+  [[0.25318078]
+   [0.25424597]
+   [0.23348349]
+   ...
+   [0.31980691]
+   [0.31963484]
+   [0.27535862]]
+
+  ...
+
+  [[0.64379517]
+   [0.58589644]
+   [0.52174827]
+   ...
+   [0.39617649]
+   [0.32527234]
+   [0.28192478]]
+
+  [[0.61938836]
+   [0.58408191]
+   [0.5316333 ]
+   ...
+   [0.40269458]
+   [0.35970256]
+   [0.29719588]]
+
+  [[0.60021829]
+   [0.59443168]
+   [0.52739566]
+   ...
+   [0.42342176]
+   [0.38357843]
+   [0.32418599]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+rsh_image [[[[0.24399552]
+   [0.28753319]
+   [0.27454853]
+   ...
+   [0.2120098 ]
+   [0.21761387]
+   [0.25012042]]
+
+  [[0.26507098]
+   [0.29201517]
+   [0.26774791]
+   ...
+   [0.22035846]
+   [0.22426471]
+   [0.25290543]]
+
+  [[0.26236894]
+   [0.29580014]
+   [0.29796815]
+   ...
+   [0.23221975]
+   [0.23594516]
+   [0.25032467]]
+
+  ...
+
+  [[0.36066389]
+   [0.41659135]
+   [0.44968384]
+   ...
+   [0.4982524 ]
+   [0.62523106]
+   [0.59836601]]
+
+  [[0.39158624]
+   [0.44032246]
+   [0.46785131]
+   ...
+   [0.46504927]
+   [0.58510263]
+   [0.61083155]]
+
+  [[0.41985294]
+   [0.46405356]
+   [0.48623579]
+   ...
+   [0.51952444]
+   [0.54460018]
+   [0.60801037]]]] length 1
+
+1/1 [==============================] - 0s 9ms/step
+----------------------------------------
+Exception happened during processing of request from ('218.85.118.193', 55088)
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/envs/facial/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/envs/facial/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[08/Jun/2019 14:16:08] "POST /uploadFile/ HTTP/1.1" 200 13046
+[08/Jun/2019 14:16:08] "GET /static/test.jpg HTTP/1.1" 200 13046

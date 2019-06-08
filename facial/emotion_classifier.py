@@ -26,7 +26,7 @@ model.predict_proba(np.zeros((1,48,48,1)), batch_size=32, verbose=1)  # predict
 
 def predict_emotion(face_img):
     # print(face_img)
-    face_img = face_img * (1 / 255)
+    face_img = face_img * (1. / 255)
     resized_img = cv2.resize(face_img, (img_size, img_size))  # ,interpolation=cv2.INTER_LINEAR
     rsz_img = []
     rsh_img = []
