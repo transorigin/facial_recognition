@@ -6,6 +6,10 @@ import os
 
 # Create your views here.
 def index(request):
+<<<<<<< HEAD
+=======
+#    print("`1111")
+>>>>>>> a3582187c74a4d6adf80bf396c51f55ff4e9b3e6
     return render(request, 'index.html')
 
 
