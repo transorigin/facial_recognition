@@ -32,7 +32,12 @@ def recFacial(imgPath):
         return face
 
     faces, img_gray, img = emotion_classifier.face_detect(imgPath)
-    print(emotion_classifier.predict_emotion(faces))
+    try:
+
+        print(emotion_classifier.predict_emotion(faces))
+    except:
+        path = p + '/static/test.jpg'
+        cv2.imwrite(path, img)
     emoStore = {}
     for (x, y, w, h) in faces:
         face_img_gray = img_gray[y:y + h, x:x + w]
