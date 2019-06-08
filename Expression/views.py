@@ -6,7 +6,6 @@ import os
 
 # Create your views here.
 def index(request):
-    print("`1111")
     return render(request, 'index.html')
 
 
@@ -36,7 +35,7 @@ def uploadFile(request):
         #
         # 表情识别接口
         if myFile:
-            img, emoStore = function.recFacial(imgPath)
+            img, emoStore = function.recFacial(imgPath, myFile.name)
         print(os.path)
         # 返回表情识别结果
         return HttpResponse(img, content_type="image/jpg")

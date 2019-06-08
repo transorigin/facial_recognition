@@ -9,7 +9,7 @@ emotion_labels = ['angry', 'disgust:', 'fear', 'happy', 'sad', 'surprise', 'neut
 num_class = len(emotion_labels)
 
 
-def recFacial(imgPath):
+def recFacial(imgPath, imgName):
     p = os.path.dirname(__file__)
     # 加载emotion
     emotion_images = {}
@@ -36,7 +36,7 @@ def recFacial(imgPath):
 
         print(emotion_classifier.predict_emotion(faces))
     except:
-        path = p + '/static/test.jpg'
+        path = p + '/static/temp/test.jpg'
         cv2.imwrite(path, img)
     emoStore = {}
     for (x, y, w, h) in faces:
@@ -59,7 +59,7 @@ def recFacial(imgPath):
         # cv2.putText(img, emo, (x + 2, y + h - 2), cv2.FONT_HERSHEY_SIMPLEX,
         #             www_s, (150, 25, 150), thickness=2, lineType=1)
         print(p)
-        path = p + '/static/test.jpg'
+        path = p + '/static/temp/test.jpg'
         cv2.imwrite(path, emoji)
         emoStore[emo] = result_sum[label]
     print(emoStore)

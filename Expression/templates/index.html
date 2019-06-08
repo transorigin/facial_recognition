@@ -41,7 +41,7 @@
             width: 368px;
             position: absolute;
             top: 5%;
-            right: 15%;
+            right: 10%;
             background-color: rgba(255, 255, 255, 0.3);
         }
 
@@ -281,29 +281,33 @@
 </div>
 
 <script>
+    {% block js %}
     $(document).ready(
         function () {
             $("#submit").click(function () {
                 var formData = new FormData();
                 var input = $("#img-upload");
                 var file = input[0].files[0];//获取input上传的文件
+                var imgshow =$("#finalResult");
+                let filePos = "temp/"+file.name;
                 formData.append("img", file);
                 $.ajax({
                     url: "/uploadFile/",
                     type: "POST",
+                    cache:false,
                     data: formData,
                     contentType: false,
                     processData: false,
                     success: function (data) {
-                        {#alert("上传成功!")#}
-                        {#console.log(data);#}
-                        var imgshow =$("#finalResult");
-                        imgshow.attr('src',"{% static "test.jpg" %}")
+
+                        imgshow.attr('src',"{% static 'temp/test.jpg' %}");
+
                     }
                 });
             });
         }
     );
+    {% endblock %}
 </script>
 <script type="text/javascript">
     $('#img-upload').change(function (e) {
