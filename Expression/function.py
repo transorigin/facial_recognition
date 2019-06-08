@@ -1,7 +1,10 @@
+from PIL import Image
+
 from facial import emotion_classifier
 import numpy as np
 import cv2
 import os
+
 emotion_labels = ['angry', 'disgust:', 'fear', 'happy', 'sad', 'surprise', 'neutral']
 num_class = len(emotion_labels)
 
@@ -15,8 +18,8 @@ def recFacial(imgPath):
 
     def face2emoji(face, emotion_index, position):
         x, y, w, h = position
-        print("index:",emotion_index)
-        print('emotion_image',emotion_images[emotion_index])
+        print("index:", emotion_index)
+        print('emotion_image', emotion_images[emotion_index])
         emotion_image = cv2.resize(emotion_images[emotion_index], (w, h))
         overlay_img = emotion_image[:, :, :3] / 255.0
         overlay_bg = emotion_image[:, :, 3:] / 255.0
@@ -51,11 +54,12 @@ def recFacial(imgPath):
         # cv2.putText(img, emo, (x + 2, y + h - 2), cv2.FONT_HERSHEY_SIMPLEX,
         #             www_s, (150, 25, 150), thickness=2, lineType=1)
         print(p)
-        path = p + '/img/test.jpg'
+        path = p + '/static/test.jpg'
         cv2.imwrite(path, emoji)
         emoStore[emo] = result_sum[label]
     print(emoStore)
-    return img, emoStore
+    image_data = open(path, "rb").read()
+    return image_data, emoStore
 
 
 if __name__ == '__main__':

@@ -19,6 +19,7 @@ from django.conf.urls import url
 from Expression import views
 
 urlpatterns = [
-    url(r'^index/', views.index),
-    url(r'^uploadFile/', views.uploadFile),
+    url('^uploadFile/', views.uploadFile),
+    # url('^test', views.test),
+    url('', views.index),
 ]

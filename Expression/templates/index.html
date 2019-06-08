@@ -1,301 +1,344 @@
 <!doctype html>
 <html>
 <head>
-{% load static %}
-<meta charset="utf-8">
-<title>login</title>
-<style type="text/css">
-*{
-	margin: 0;
-	padding: 0;
-}
+    {% load static %}
+    <meta charset="utf-8">
+    <title>login</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
 
-#wrap {
-	height: 719px;
-	width: 100;
-	{% load static %}
-	background-image: url({% static "login2.jpg" %});
-	background-repeat: no-repeat;
-	background-position: center center;
-	position: relative;
-	background-size: 100% 100%; 
-	
-}
-#head {
-	height: 120px;
-	width: 100;
-	background: linear-gradient(to right,white ,gold,white); 
-	text-align: center;
-	position: relative;
-}
-#foot {
-	width: 100;
-	height: 126px;
-	background: linear-gradient(to left,white ,gold,white); 
-	position: relative;
-}
-#wrap .logGet {
-	height: 498px;
-	width: 368px;  
-	position: absolute;
-	top: 5%;
-	right: 15%;
-	background-color:rgba(255, 255, 255, 0.3);
-}
-.logC button {
-	width: 30%;
-	height: 45px;
-	background-color: #ee7700;
-	border: none;
-	color: white;
-	font-size: 18px;
-	margin-left:45px;
-}
-.logGet .logD.logDtip .p1 {
-	display: inline-block;
-	font-size: 28px;
-	margin-top: 30px;
-	width: 86%;
-}
-#wrap .logGet .logD.logDtip {
-	width: 86%;
-	border-bottom: 1px solid #ee7700;
-	margin-bottom: 60px;
-	margin-top: 0px;
-	margin-right: auto;
-	margin-left: auto;
-}
-.logGet .lgD img {
-	position: absolute;
-	top: 12px;
-	left: 8px;
-}
-.logGet .lgD input {
-	width: 100%;
-	height: 42px;
-	text-indent: 2.5rem;
-}
-#wrap .logGet .lgD {
-	width: 86%;
-	position: relative;
-	margin-bottom: 30px;
-	margin-top: 30px;
-	margin-right: auto;
-	margin-left: auto;
-}
-#wrap .logGet .logC {
-	width: 86%;
-	margin-top: 0px;
-	margin-right: auto;
-	margin-bottom: 0px;
-	margin-left: auto;
-}
- 
- 
-.title{
-	font-family: "宋体";
-	color:black;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%); 
-	font-size: 36px;
-	height: 40px;
-	width: 30%;
-	font-weight: bold;
-}
-	
-	.title1{
-		
-		text-shadow: 5px 5px 5px #FF0000;
-	}
+        #wrap {
+            height: 719px;
+            width: 100;
+        {% load static %} background-image: url({% static "login2.jpg" %});
+            background-repeat: no-repeat;
+            background-position: center center;
+            position: relative;
+            background-size: 100% 100%;
 
- 
-.copyright {
-	font-family: "宋体";
-	color: #FFFFFF;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);  /* 使用css3的transform来实现 */
-	height: 60px;
-	width: 40%;
-	text-align:center;
-}
-	
- 
-#foot .copyright .img {
-	width: 100%;
-	height: 24px;
-	position: relative;
-}
-.copyright .img .icon {
-	display: inline-block;
-	width: 24px;
-	height: 24px;
-	margin-left: 22px;
-	vertical-align: middle;
-	background-repeat: no-repeat;
-	vertical-align: middle;
-	margin-right: 5px;
-}
-	
-.copyright .img .icon1 {
-	display: inline-block;
-	width: 24px;
-	height: 24px;
-	margin-left: 22px;
-	vertical-align: middle;
-	background-repeat: no-repeat;
-	vertical-align: middle;
-	margin-right: 5px;
-}
-.copyright .img .icon2 {
-	display: inline-block;
-	width: 24px;
-	height: 24px;
-	margin-left: 22px;
-	vertical-align: middle;
-	background-repeat: no-repeat;
-	vertical-align: middle;
-	margin-right: 5px;
-}
-#foot .copyright p {
-	height: 24px;
-	width: 100%;
-}
-	
-	
-	.JMU{
-		position: absolute;
-		top: -40px;
-		left: -530px;
-	}
-</style>
+        }
 
-<link rel="stylesheet" href="http://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="http://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
-	<script src="http://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        #head {
+            height: 120px;
+            width: 100;
+            background: linear-gradient(to right, white, gold, white);
+            text-align: center;
+            position: relative;
+        }
+
+        #foot {
+            width: 100;
+            height: 126px;
+            background: linear-gradient(to left, white, gold, white);
+            position: relative;
+        }
+
+        #wrap .logGet {
+            height: 498px;
+            width: 368px;
+            position: absolute;
+            top: 5%;
+            right: 15%;
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .logC button {
+            width: 30%;
+            height: 45px;
+            background-color: #ee7700;
+            border: none;
+            color: white;
+            font-size: 18px;
+            margin-left: 45px;
+        }
+
+        .logGet .logD.logDtip .p1 {
+            display: inline-block;
+            font-size: 28px;
+            margin-top: 30px;
+            width: 86%;
+        }
+
+        #wrap .logGet .logD.logDtip {
+            width: 86%;
+            border-bottom: 1px solid #ee7700;
+            margin-bottom: 60px;
+            margin-top: 0px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .logGet .lgD img {
+            position: absolute;
+            top: 12px;
+            left: 8px;
+        }
+
+        .logGet .lgD input {
+            width: 100%;
+            height: 42px;
+            text-indent: 2.5rem;
+        }
+
+        #wrap .logGet .lgD {
+            width: 86%;
+            position: relative;
+            margin-bottom: 30px;
+            margin-top: 30px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        #wrap .logGet .logC {
+            width: 86%;
+            margin-top: 0px;
+            margin-right: auto;
+            margin-bottom: 0px;
+            margin-left: auto;
+        }
+
+
+        .title {
+            font-family: "宋体";
+            color: black;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 36px;
+            height: 40px;
+            width: 30%;
+            font-weight: bold;
+        }
+
+        .title1 {
+
+            text-shadow: 5px 5px 5px #FF0000;
+        }
+
+
+        .copyright {
+            font-family: "宋体";
+            color: #FFFFFF;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* 使用css3的transform来实现 */
+            height: 60px;
+            width: 40%;
+            text-align: center;
+        }
+
+
+        #foot .copyright .img {
+            width: 100%;
+            height: 24px;
+            position: relative;
+        }
+
+        .copyright .img .icon {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            margin-left: 22px;
+            vertical-align: middle;
+            background-repeat: no-repeat;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        .copyright .img .icon1 {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            margin-left: 22px;
+            vertical-align: middle;
+            background-repeat: no-repeat;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        .copyright .img .icon2 {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            margin-left: 22px;
+            vertical-align: middle;
+            background-repeat: no-repeat;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        #foot .copyright p {
+            height: 24px;
+            width: 100%;
+        }
+
+
+        .JMU {
+            position: absolute;
+            top: -40px;
+            left: -530px;
+        }
+    </style>
+
+    <link rel="stylesheet" href="http://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </head>
- 
+
 <body>
 
 
 <div class="header" id="head">
-  <div class="title"><p class="title1">AI人脸表情识别系统</p>
-  <a href="www.qq.com"><span style="font-size: 20px; position:absolute; right:-500px; top:-35px; text-decoration: underline; color:#0AE9E6;" >关于我们</span></a>
-  <a href="www.baidu.com"><span style="font-size: 20px; position:absolute; right:-400px; top:-35px; text-decoration:underline; color:#0AE9E6;">帮助中心</span></a>
-  {% load static %}
-  <img src="{% static "JMU1.jpg" %}" width="120" class="JMU">
-  </div>
-	
+    <div class="title"><p class="title1">AI人脸表情识别系统</p>
+        <a href="www.qq.com"><span
+                style="font-size: 20px; position:absolute; right:-500px; top:-35px; text-decoration: underline; color:#0AE9E6;">关于我们</span></a>
+        <a href="www.baidu.com"><span
+                style="font-size: 20px; position:absolute; right:-400px; top:-35px; text-decoration:underline; color:#0AE9E6;">帮助中心</span></a>
+        {% load static %}
+        <img src="{% static "JMU1.jpg" %}" width="120" class="JMU">
+    </div>
+
 </div>
-	
-		{% csrf_token %}
+
+{% csrf_token %}
 <div class="wrap" id="wrap">
 
 
-	<div>
-	<span style="font-weight:bold; font-size: 20px;text-shadow: 5px 5px 5px #FFFF00;position: absolute;top: 110px; left: 420px;">功 能 介 绍</span>	
-		
-	</div>
-	
-	
-	<div id="myCarousel" class="carousel slide" style="width: 1000px">
-	<!-- 轮播（Carousel）指标 -->
-	<ol class="carousel-indicators" style="position: absolute; top: 410px; left: 475px;">
-		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-		<li data-target="#myCarousel" data-slide-to="1"></li>
-		<li data-target="#myCarousel" data-slide-to="2"></li>
-	</ol>   
-	<!-- 轮播（Carousel）项目 -->
-	<div class="carousel-inner" style="width:450px; position: absolute; right:300px; top: 150px;">
-		<div class="item active">
-			<img src="{% static "JMU2.jpg" %}" alt="First slide">
-		</div>
-		<div class="item">
-			<img src="{% static "JMU3.jpg" %}" alt="Second slide">
-		</div>
-		<div class="item">
-			<img src="{% static "JMU4.jpg" %}" alt="Third slide">
-		</div>
-	</div>
-	<!-- 轮播（Carousel）导航 -->
-	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="position: absolute;top:260px;left: 210px;"></span>
-		<span class="sr-only">Previous</span>
-	</a>
-	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="position: absolute; top: 260px; right: 260px;"></span>
-		<span class="sr-only">Next</span>
-	</a>
-</div> 
+    <div>
+        <span style="font-weight:bold; font-size: 20px;text-shadow: 5px 5px 5px #FFFF00;position: absolute;top: 110px; left: 420px;">功 能 介 绍</span>
 
-	<span style="font-weight:bold; font-size: 20px;text-shadow: 5px 5px 5px #FFFF00;position: absolute;top: 6%; right:35% ">选择上传照片：</span>
-	
-	<span style="font-weight:bold; font-size: 20px;text-shadow: 5px 5px 5px #FFFF00;position: absolute;top: 16%; right:36% ">您的照片为：</span>
-	
-	<span style="font-weight:bold; font-size: 20px;text-shadow: 5px 5px 5px #FFFF00;position: absolute;top: 50%; right:36% ">结果展示区：</span>
-	
-	<div class="logGet">
-			
-	<form id="fileForm" action="/uploadFile/" enctype="multipart/form-data" method="post">
-    <div class="upload-img">
-       <input id="img-upload" type="file" name="img" accept="image/*">
-       <br>
-        <img id="img-show" src="默认图片文件路径" class="img-polaroid" width="368" height="260" >
-        
     </div>
-    
-   <input id="submit" type="submit" value="开始识别" style="width: 27%;
+
+
+    <div id="myCarousel" class="carousel slide" style="width: 1000px">
+        <!-- 轮播（Carousel）指标 -->
+        <ol class="carousel-indicators" style="position: absolute; top: 410px; left: 475px;">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner" style="width:450px; position: absolute; right:300px; top: 150px;">
+            <div class="item active">
+                <img src="{% static "JMU2.jpg" %}" alt="First slide">
+            </div>
+            <div class="item">
+                <img src="{% static "JMU3.jpg" %}" alt="Second slide">
+            </div>
+            <div class="item">
+                <img src="{% static "JMU4.jpg" %}" alt="Third slide">
+            </div>
+        </div>
+        <!-- 轮播（Carousel）导航 -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"
+                  style="position: absolute;top:260px;left: 210px;"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"
+                  style="position: absolute; top: 260px; right: 260px;"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <span style="font-weight:bold; font-size: 20px;text-shadow: 5px 5px 5px #FFFF00;position: absolute;top: 6%; right:35% ">选择上传照片：</span>
+
+    <span style="font-weight:bold; font-size: 20px;text-shadow: 5px 5px 5px #FFFF00;position: absolute;top: 16%; right:36% ">您的照片为：</span>
+
+    <span style="font-weight:bold; font-size: 20px;text-shadow: 5px 5px 5px #FFFF00;position: absolute;top: 50%; right:36% ">结果展示区：</span>
+
+    <div class="logGet">
+
+        <form id="fileForm" enctype="multipart/form-data" method="post">
+            <div class="upload-img">
+                <input id="img-upload" type="file" name="img" accept="image/*">
+                <br>
+                <img id="img-show" src="默认图片文件路径" class="img-polaroid" width="368" height="260">
+
+            </div>
+
+            <input id="submit" type="button" value="开始识别" style="width: 27%;
 	height: 25px;
 	background-color: #ee7700;
 	border: none;
 	color: white;
 	font-size: 15px;
 	margin-left:125px;">
-	
-	<div id="result" width="400" height="50" style="border-bottom-width: 2px">结果为：？？？</div>
-	</form>
-	
-	</div>
+
+            <div id="result" width="400" height="50" style="border-bottom-width: 2px">
+                <img src="" id="finalResult" width="368" height="260">
+            </div>
+        </form>
+
+    </div>
 </div>
 
+<script>
+    $(document).ready(
+        function () {
+            $("#submit").click(function () {
+                var formData = new FormData();
+                var input = $("#img-upload");
+                var file = input[0].files[0];//获取input上传的文件
+                formData.append("img", file);
+                $.ajax({
+                    url: "/uploadFile/",
+                    type: "POST",
+                    data: formData,
+                    contentType: false,
+                    processData: false,
+                    success: function (data) {
+                        {#alert("上传成功!")#}
+                        {#console.log(data);#}
+                        var imgshow =$("#finalResult");
+                        imgshow.attr('src',"{% static "test.jpg" %}")
+                    }
+                });
+            });
+        }
+    );
+</script>
 <script type="text/javascript">
-    $('#img-upload').change(function(e){
+    $('#img-upload').change(function (e) {
         var input = $("#img-upload");
         var file = input[0].files[0];//获取input上传的文件
-        if(!file.name){
+        if (!file.name) {
             alert("未选择图片");
-        }else{
+        } else {
             //高版本浏览器对文件上传路径进行了安全处理，无法直接通过获取input的value进行访问，故转化为获取图片的url进行安全访问
             var url = window.URL.createObjectURL(file);//将上传的文件转化为url
             $("#img-show").attr('src', url);//更新img的src属性
-        };
+        }
     });
 </script>
 
 
 <div class="footer" id="foot">
-  <div class="copyright">
-    <div class="img">
-		<i class="icon"></i><span style="color: #000000">联系邮箱：1129235765@qq.com</span>
-	</div>
-	
-	<div class="img">
-		<i class="icon1"></i><span style="color: #000000">联系地址：集美大学计算机工程学院网络1611</span>
-	</div>
-	  
-	<div class="img">
-	  <i class="icon2"></i><span style="color: #000000">@版权所有：惊奇六人组</span>
-	</div>
- 
- 
-  </div>
-	
+    <div class="copyright">
+        <div class="img">
+            <i class="icon"></i><span style="color: #000000">联系邮箱：1129235765@qq.com</span>
+        </div>
+
+        <div class="img">
+            <i class="icon1"></i><span style="color: #000000">联系地址：集美大学计算机工程学院网络1611</span>
+        </div>
+
+        <div class="img">
+            <i class="icon2"></i><span style="color: #000000">@版权所有：惊奇六人组</span>
+        </div>
+
+
+    </div>
+
 </div>
-	
-	
+
+
 </body>
 </html>

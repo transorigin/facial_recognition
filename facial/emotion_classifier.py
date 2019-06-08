@@ -25,7 +25,8 @@ print(np.zeros((1, 48,48,1)))
 model.predict_proba(np.zeros((1,48,48,1)), batch_size=32, verbose=1)  # predict
 
 def predict_emotion(face_img):
-    face_img = face_img * (1. / 255)
+    # print(face_img)
+    face_img = face_img * (1 / 255)
     resized_img = cv2.resize(face_img, (img_size, img_size))  # ,interpolation=cv2.INTER_LINEAR
     rsz_img = []
     rsh_img = []
@@ -34,14 +35,6 @@ def predict_emotion(face_img):
     rsz_img.append(resized_img[:, :])  # resized_img[1:46,1:46]
     rsz_img.append(resized_img[2:45, :])
     rsz_img.append(cv2.flip(rsz_img[0], 1))
-    # rsz_img.append(cv2.flip(rsz_img[1],1))
-
-    '''rsz_img.append(resized_img[0:45,0:45])
-    rsz_img.append(resized_img[2:47,0:45])
-    rsz_img.append(resized_img[2:47,2:47])
-    rsz_img.append(cv2.flip(rsz_img[2],1))
-    rsz_img.append(cv2.flip(rsz_img[3],1))
-    rsz_img.append(cv2.flip(rsz_img[4],1))'''
     i = 0
     for rsz_image in rsz_img:
         rsz_img[i] = cv2.resize(rsz_image, (img_size, img_size))

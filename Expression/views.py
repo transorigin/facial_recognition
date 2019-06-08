@@ -3,8 +3,10 @@ from django.http import HttpResponse
 from Expression import function
 import os
 
+
 # Create your views here.
 def index(request):
+    print("`1111")
     return render(request, 'index.html')
 
 
@@ -17,8 +19,11 @@ def get(request):
 
 
 def uploadFile(request):
+    print(request)
+    print("123")
     if request.method == "POST":  # 请求方法为POST时，进行处理
         myFile = request.FILES.get("img", None)  # 获取上传的文件，如果没有文件，则默认为None
+        print("myFile:", myFile)
         print(myFile.name)
         if not myFile:
             return HttpResponse("no files for upload!")
@@ -31,7 +36,11 @@ def uploadFile(request):
         #
         # 表情识别接口
         if myFile:
-            function.recFacial(imgPath)
+            img, emoStore = function.recFacial(imgPath)
         print(os.path)
         # 返回表情识别结果
-        return HttpResponse("成功")
+        return HttpResponse(img, content_type="image/jpg")
+
+
+def test(request):
+    return HttpResponse('success')
